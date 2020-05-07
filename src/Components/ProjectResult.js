@@ -3,29 +3,60 @@ import React from 'react';
 class ProjectResult extends React.Component {
     constructor(props){
         super(props);
+        this.state = {
+            project: {}
+        };
     }
 
+    handleClick = (event) => {
+        const {href} = event.target;
+        console.log("Jai cliqué sur ", href);
+        const parseIndex = href.split('projet')[1];
+        const result = this.props.projectData[parseIndex];
+        console.log(result);
+        this.setState(state => ({project:result}) );
+        event.preventDefault();
+    };
+
     render() {
-        return (this.props.project.Name !== undefined)
-            ? (<section className="resume-section p-3 p-lg-5 d-flex align-items-center">
+        return (this.state.project.Name !== undefined)
+            ? (<section className="resume-section p-3 p-lg-5 d-flex" id="project">
                 <div className="mw-100">
-                    <h3>Nom du projet :</h3>
-                    <h2 className="mb-0">{this.props.project.Name}</h2>
-                        <h3 className="text-secondary">{this.props.project.Role}</h3>
+                    <div className="dropdown">
+                        <button className="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Liste des réalisations
+                        </button>
+                        <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            {this.props.projectData.map(
+                                (item, index) =>
+                                    <a className="js-scroll-trigger dropdown-item" href={"projet" + index}
+                                       onClick={this.handleClick}>{item.Name}</a>
+                            )}
+                        </div>
+                    </div>
+                    <div style={{width: '100%',
+                        margin : '0',
+                        padding : '2%',
+                        border : 'solid'}}>
+                        <img className="rounded float-right img-fluid"
+                             src={this.state.project.img} />
+                        <h3 className="mb-0">{this.state.project.Name}</h3>
+                        <h4 className="text-secondary">{this.state.project.Role}</h4>
 
-                        <h3>Présentation :</h3>
+                        <h4>Présentation :</h4>
                         <p>
-                            { this.props.project.Presentation }
+                            { this.state.project.Presentation }
                         </p>
 
-                        <h3>Objectif, Contexte, Enjeu, Risque :</h3>
+                        <h4>Objectif, Contexte, Enjeu, Risque :</h4>
                         <p>
-                            {this.props.project.Context}
+                            {this.state.project.Context}
                         </p>
 
-                        <h3>Missions</h3>
+                        <h4>Missions</h4>
                         <ul>
-                            {this.props.project.Missions.map(
+                            {this.state.project.Missions.map(
                                 (item) =>
                                     <li>{ item.mission }</li>
                             )}
@@ -40,7 +71,7 @@ class ProjectResult extends React.Component {
                                 </tr>
                                 </thead>
                                 <tbody>
-                                {this.props.project.Benefits.map(
+                                {this.state.project.Benefits.map(
                                     (item) =>
                                         <tr>
                                             <td>{item.benefit}</td>
@@ -57,7 +88,7 @@ class ProjectResult extends React.Component {
                                 </tr>
                                 </thead>
                                 <tbody>
-                                {this.props.project.Constraints.map(
+                                {this.state.project.Constraints.map(
                                     (item) =>
                                         <tr>
                                             <td>{item.constraint}</td>
@@ -67,26 +98,50 @@ class ProjectResult extends React.Component {
                             </table>
                         </div>
                     </div>
+                        <div className="text-center">
+
+                        </div>
+                </div>
                 </div>
                 </section>
             )
-            : ( <section className="resume-section p-3 p-lg-5 d-flex align-items-center">
-                <div className="mw-100">
-                    <h3>Nom du projet :</h3>
-                    <h2 className="mb-0"> </h2>
-                    <h3 className="text-secondary">Mon Role :</h3>
+            : ( <section className="resume-section p-3 p-lg-5 d-flex" id="project">
 
-                    <h3>Présentation :</h3>
+                    <div className="mw-100">
+                        <div className="dropdown">
+                            <button className="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Liste des réalisations
+                            </button>
+                            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                {this.props.projectData.map(
+                                    (item, index) =>
+                                        <a className="js-scroll-trigger dropdown-item" href={"projet" + index}
+                                           onClick={this.handleClick}>{item.Name}</a>
+                                )}
+                            </div>
+                        </div>
+                        <div style={{width: '100%',
+                        margin : '0',
+                        padding : '2%',
+                        border : 'solid',
+                        backgroundImage: 'url("../Assets/aww.png")'}}>
+                    <img className="d-block w-100 img-responsive" src={this.state.project.img} alt="" />
+                    <h3>Nom du projet : ??? </h3>
+                    <h3 className="mb-0"> </h3>
+                    <h4 className="text-secondary">Mon Role : ???</h4>
+
+                    <h4>Présentation :</h4>
                     <ul>
 
                     </ul>
 
-                    <h3>Objectif, Contexte, Enjeu, Risque :</h3>
+                    <h4>Objectif, Contexte, Enjeu, Risque :</h4>
                     <p>
 
                     </p>
 
-                    <h3>Missions :</h3>
+                    <h4>Missions :</h4>
                     <ul>
 
                     </ul>
@@ -125,6 +180,7 @@ class ProjectResult extends React.Component {
                         </div>
                     </div>
                 </div>
+                    </div>
             </section>);
     }
 }

@@ -27,7 +27,7 @@ class Interests extends Component {
                                         <img className="d-block w-100 img-responsive" src={data.url} alt={data.title} />
                                         <div className="carousel-caption d-md-block" style={{backgroundColor: "rgba(0, 123, 255, 0.6)"}} >
                                             <h5>{data.title}</h5>
-                                            <p>{data.paragraphe}</p>
+                                            <small>{data.paragraphe}</small>
                                         </div>
                                     </div>
                                 ))

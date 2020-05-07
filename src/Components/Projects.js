@@ -24,19 +24,6 @@ class Projects extends Component {
         const result = this.state.projectData[parseIndex];
         console.log(result);
         this.setState(state => ({projectResult:result}) );
-        /*fetch(href)
-            .then(res => res.json())
-            .then(
-                (result) => {
-                    this.setState(state => ({projectResult:result}) );
-                },
-                (error) => {
-                    this.setState({
-                        isLoaded: true,
-                        error
-                    });
-                }
-            );*/
         event.preventDefault();
     };
 
@@ -50,7 +37,7 @@ class Projects extends Component {
                         <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={image} alt="me"></img>
                     </span>
                     </a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">

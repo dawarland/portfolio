@@ -10,27 +10,32 @@ import Salesforce from './Salesforce';
 import Contact from './Contact';
 import userData from '../userData.json';
 import ReactGA from 'react-ga';
+import ProjectResult from "./ProjectResult";
+import projects from "../projects";
 
 class Home extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
+            projectData : projects.projects,
             landingData : userData.landing,
             experience : userData.experience,
             education : userData.education,
             skills : userData.skills,
             interests : userData.interests,
-            awards : userData.awards
+            awards : userData.awards,
+            projectResult: {}
         };
 
         ReactGA.initialize('UA-141328214-1');
         ReactGA.pageview(window.location.pathname);
     }
+
     render() {
         return (
             <div className="App">
-                <Sidebar sidebarData={this.state.landingData} />
+                <Sidebar sidebarData={this.state.landingData}/>
                 <div className="container-fluid p-0">
                     <Landing landingData={this.state.landingData} />
                     <hr className="m-0" />
@@ -46,7 +51,10 @@ class Home extends Component {
                     <hr className="m-0" />
                     <Awards awards={this.state.awards} />
                     <hr className="m-0" />
+                    <ProjectResult projectData={this.state.projectData} />
+                    <hr className="m-0" />
                     <Contact />
+
                 </div>
             </div>
         );
