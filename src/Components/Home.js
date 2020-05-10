@@ -43,13 +43,13 @@ class Home extends Component {
                     <hr className="m-0" />
                     <Education education={this.state.education}/>
                     <hr className="m-0" />
+                    <Awards awards={this.state.awards} />
+                    <hr className="m-0" />
                     <Skills skills={this.state.skills} />
                     <hr className="m-0" />
                     <Interests interests={this.state.interests} />
                     <hr className="m-0" />
                     <Salesforce />
-                    <hr className="m-0" />
-                    <Awards awards={this.state.awards} />
                     <hr className="m-0" />
                     <ProjectResult projectData={this.state.projectData} />
                     <hr className="m-0" />

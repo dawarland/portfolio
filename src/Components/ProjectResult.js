@@ -22,10 +22,11 @@ class ProjectResult extends React.Component {
         return (this.state.project.Name !== undefined)
             ? (<section className="resume-section p-3 p-lg-5 d-flex" id="project">
                 <div className="mw-100">
+                    <h2 className="mb-5">Mes réalisations 🔨</h2>
                     <div className="dropdown">
                         <button className="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Liste des réalisations
+                            Selectionner une réalisation
                         </button>
                         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             {this.props.projectData.map(
@@ -43,13 +44,13 @@ class ProjectResult extends React.Component {
                              src={this.state.project.img} />
                         <h3 className="mb-0">{this.state.project.Name}</h3>
                         <h4 className="text-secondary">{this.state.project.Role}</h4>
-
+                        <br/>
                         <h4>Présentation :</h4>
                         <p>
                             { this.state.project.Presentation }
                         </p>
 
-                        <h4>Objectif, Contexte, Enjeu, Risque :</h4>
+                        <h4>Objectif, Contexte, Enjeux, Risques :</h4>
                         <p>
                             {this.state.project.Context}
                         </p>
@@ -67,7 +68,7 @@ class ProjectResult extends React.Component {
                             <table className="table">
                                 <thead>
                                 <tr className="bg-success">
-                                    <td>Benefices</td>
+                                    <td>Bénéfices</td>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -106,12 +107,12 @@ class ProjectResult extends React.Component {
                 </section>
             )
             : ( <section className="resume-section p-3 p-lg-5 d-flex" id="project">
-
                     <div className="mw-100">
+                        <h2 className="mb-5">Mes réalisations 🔨</h2>
                         <div className="dropdown">
                             <button className="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Liste des réalisations
+                                Selectionner une réalisation
                             </button>
                             <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 {this.props.projectData.map(
@@ -136,7 +137,7 @@ class ProjectResult extends React.Component {
 
                     </ul>
 
-                    <h4>Objectif, Contexte, Enjeu, Risque :</h4>
+                    <h4>Objectif, Contexte, Enjeux, Risques :</h4>
                     <p>
 
                     </p>

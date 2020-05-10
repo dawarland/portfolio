@@ -1,51 +1,48 @@
 {
   "projects": [
     {
-      "Name": "The Last Soldier Defender",
-      "Presentation": "TLSD est un jeu de type Tower Defense programmé en Java. Le soldat arrive sur une planète et il doit defendre son vaisseau des vagues d'attaques ennemie en disposant tactiquement des tours de combat. Arriverez vous à atteindre le niveau final ?",
+      "Name": "The Last Soldier Defender (16,51/20)",
+      "Presentation": "TLSD est un jeu de type Tower Defense programmé en Java. Le soldat arrive sur une planète et doit défendre son vaisseau des vagues d'attaques ennemie, en disposant tactiquement des tours de combat. Arriverez-vous à atteindre le niveau final ?",
       "Objectif": "Réalisé en groupe de 3 élèves. Projet scolaire de Conception d'un jeu en Java respectant l'architecture MVC pour la validation d'une unité d'enseignement. Avec la possibilité d'ajouter des fonctionnalités : Création de différent niveaux/mondes dynamiques, gestion des meilleurs scores, drag and drop.",
       "Role": "Chef de projet / Développeur",
       "Missions": [
         {
-          "mission": "Présentation des sprints."
+          "mission": "Présentation des sprints"
         },
         {
-          "mission": "Programmation de la l'affichage du jeux à l'aide des informations récupérées du controlleur."
+          "mission": "Programmation de l'affichage du jeux à l'aide des informations données par contrôleur"
         },
         {
-          "mission": "Programmation des algorithmes de parcours en profondeur."
+          "mission": "Programmation des algorithmes de parcours en profondeur"
         }
       ],
       "Benefits": [
         {
-          "benefit": "Note : 16,51"
+          "benefit": "Montée en compétences sur les technologies utilisées et sur l'encadrement d'un projet"
         },
         {
-          "benefit": "Montée en compétence sur les techno utilisées et sur l'encadrement d'un projet."
+          "benefit": "Bon retour sur le livrable (agréable à jouer, niveau de difficulté modérée, graphisme cohérent etc...)"
         },
         {
-          "benefit": "Bon retour sur le livrable (Agreable à jouer, pas trop compliqué ni trop simple, graphisme cohérent, etc)"
+          "benefit": "Bonne collaboration d'équipe"
         },
         {
-          "benefit": "Bonne collaboration d'équipe."
-        },
-        {
-          "benefit": "Répartition équitable des tâches."
+          "benefit": "Répartition équitable des tâches"
         }
       ],
       "Constraints": [
         {
-          "constraint": "Certaines fonctionnalités non prévu au départ pas mises en place faute de temps."
+          "constraint": "Certaines fonctionnalités prévues au départ non mises en place faute de temps"
         },
         {
-          "constraint": "Le jeu n'a pas été mis en ligne."
+          "constraint": "Le jeu n'a pas été mis en ligne"
         }
       ],
       "img": "https://williamsarland-dev-ed--c.visualforce.com/resource/1588888109000/tlsd",
       "Url": "https://github.com/dawarland"
     },
     {
-      "Name": "Extranet Code Code Codec",
+      "Name": "Extranet Code Code Codec (16/20)",
       "Presentation": "Site sécurisé de gestion des élèves avec plusieurs niveaux d'utilisateurs, connecté à un microservice qui alerte en cas d'absence d'un professeur.",
       "Objectif": "CodeCodeCodec est une école d'informatique pour les enfants de 7 à 14 ans. A mon arrivée, la gestion des élèves ce faisait sur un exel. J'ai donc proposé la conception d'un site de gestion avec quelques foncitonnalités. C'est donc un projet Scolaire et Professionnel réalisé seul. From Scratch, programmé en PHP respectant l'architecture MVC pour la validation d'une unité d'enseignement. ",
       "Role": "Developpeur Full Stack",
@@ -54,27 +51,24 @@
           "mission": "Analyse du besoin métier"
         },
         {
-          "mission": "Elaboration du MCD."
+          "mission": "Elaboration du MCD"
         },
         {
-          "mission": "Développement du site internet."
+          "mission": "Développement du site internet"
         },
         {
-          "mission": "Mise en production sur le serveur de l'entreprise."
+          "mission": "Mise en production sur le serveur de l'entreprise"
         }
       ],
       "Benefits": [
         {
-          "benefit": "Note : 16"
+          "benefit": "Premier projet professionnel ➔ Utilisation concrète du livrable"
         },
         {
-          "benefit": "Premier projet professionel => Utilisation concrete du livrable."
+          "benefit": "Montée en compétences sur les technologies utilisées et sur l'encadrement d'un projet"
         },
         {
-          "benefit": "Montée en compétence sur les techno utilisées et sur l'encadrement d'un projet."
-        },
-        {
-          "benefit": "Beaucoup d'autoformation."
+          "benefit": "Beaucoup d'autoformation"
         }
       ],
       "Constraints": [
@@ -88,7 +82,7 @@
           "constraint": "Faute de temps, je n'ai pas pu automatisé l'ajout d'un nouvel élève suite à une commande sur le site marchant."
         }
       ],
-      "img": "lastsoldierdefender.png",
+      "img": "https://media.giphy.com/media/RNcjiUb04t3lwxWIPo/giphy.gif",
       "Url": "https://github.com/dawarland"
     },
     {
@@ -106,28 +100,28 @@
       ],
       "Benefits": [
         {
-          "benefit": "Monté en compétence sur les techno utilisées."
+          "benefit": "Monté en compétences sur les technologies utilisées."
         },
         {
-          "benefit": "Beaucoup d'autoformation."
+          "benefit": "Autodidactie."
         }
       ],
       "Constraints": [
         {
-          "constraint": "Trouver du temps pour faire avancer le projet."
+          "constraint": "Manque de temps pour faire avancer le projet."
         }
       ],
       "img": "aww.png",
       "url": "https://github.com/dawarland"
     },
     {
-      "Name": "Demineur",
-      "Presentation": "Le celebre jeu du démineur en Console sans interface graphique.",
+      "Name": "Demineur (20/20)",
+      "Presentation": "Le célèbre jeu du démineur en console et sans interface graphique.",
       "Objectif": "Projet Scolaire noté réalisé en binôme. Conception d'un jeu pour console (terminal) en C. Possibilité de paramétrer la taille du terrain, de sauvegarder/reprendre une partie, obtenir le meilleur score, etc.",
       "Role": "Chef de projet / Développeur",
       "Missions": [
         {
-          "mission": "Programation des algorythmes du jeu"
+          "mission": "Programation des algorithmes du jeu"
         },
         {
           "mission": "Rapporter les problèmes rencontrés du groupe"
@@ -135,15 +129,12 @@
       ],
       "Benefits": [
         {
-          "benefit": "Note : 20"
-        },
-        {
-          "benefit": "Montée en compétence sur la techno utilisées."
+          "benefit": "Montée en compétences sur la technologie utilisée"
         }
       ],
       "Constraints": [
         {
-          "constraint": "Faute de temps, nous n'avons pas pu mettre en place l'IHM."
+          "constraint": "Manque de temps (nous n'avons pas pu mettre en place l'IHM)"
         }
       ],
       "img": "https://williamsarland-dev-ed--c.visualforce.com/resource/1587506942000/demineur",

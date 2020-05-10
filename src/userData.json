@@ -3,67 +3,67 @@
     "firstName": "Williams",
     "lastName": "Arland Anyou",
     "city": "Paris",
-    "bio": "Bienvenue sur mon site internet. Actuellement étudiant en Master Ingenierie du Logiciel, j'ai pu de par mes multiples expériences acquérir certaines compétences et aptitudes indispensables dans ces métiers. Passionné par le numérique et la logique, faire carrière dans le développement informatique m'a semblé inéluctable.",
+    "bio": "Actuellement étudiant en Master Ingenierie du Logiciel, j'ai pu de par mes multiples expériences acquérir certaines compétences et aptitudes indispensables dans ces métiers. Passionné par le numérique et la logique, faire carrière dans le développement informatique m'a semblé inéluctable.",
     "email": "contact@williamsarland.com",
     "linkedin": "https://www.linkedin.com/in/arland-williams-374106118/",
     "github": "https://github.com/dawarland"
   },
   "experience": [
     {
-      "position": "♠ Consultant Technique Salesforce",
-      "organization": "Total x Capgemini",
-      "aboutWork": "Compréhension des enjeux client (métier, culture). Savoir rapporter de manière pertinente les difficultés ou les risques sprint/projet. Développement de classe APEX et de test nécessaire. Développement de Lightning component. Mise end déploiement.",
-      "fromDate": "Decembre 2019",
-      "toDate": "Present"
+      "position": "Consultant Technique Salesforce ☁",
+      "organization": "Total x Capgemini ♠",
+      "aboutWork": "Compréhension des enjeux client (métier, culture). Savoir rapporter de manière pertinente les difficultés ou les risques sprint/projet. Développement de classe APEX et de test nécessaire. Développement de Lightning Component. Mise en déploiement.",
+      "fromDate": "Decembre 2019 -",
+      "toDate": "Présent"
     },
     {
-      "position": "♠ Consultant Technique Salesforce",
-      "organization": "Naturalia x Capgemini",
-      "aboutWork": "Analyse des besoins. Organisation et traitement des US confiés au sein d'un sprint. Transformation de besoin métier simple en solution technique.",
-      "fromDate": "Septembre 2019",
+      "position": "Consultant Technique Salesforce ☁",
+      "organization": "Naturalia x Capgemini ♠",
+      "aboutWork": "Analyse des besoins. Organisation et traitement des US confiées au sein d'un sprint. Transformation de besoin métier simple en solution technique.",
+      "fromDate": "Septembre 2019 -",
       "toDate": "Decembre 2019"
     },
     {
       "position": "Ingenieur Logiciel",
-      "organization": "Capgemini",
-      "aboutWork": "Developpeur CRM en Alternance",
-      "fromDate": "Septembre 2019",
-      "toDate": "Present"
+      "organization": "Capgemini ♠",
+      "aboutWork": "Développeur CRM en alternance",
+      "fromDate": "Septembre 2019 -",
+      "toDate": "Présent"
     },
     {
       "position": "Professeur Associé",
       "organization": "CodeCodeCodec",
-      "aboutWork": "Animation atelier d’un groupe de 8 élèves (7 à 14 ans). Création de cours selon la matrice du manuel fourni par l’éducation national « 123, Codez ! ». Gestion administratif, financière et RH de l’école. Participation à l’élaboration de la stratégie commercial.",
-      "fromDate": "Avril 2017",
-      "toDate": "Present"
+      "aboutWork": "Animation atelier d’un groupe de 8 élèves (7 à 14 ans). Création de cours selon la matrice du manuel fourni par l’éducation nationale « 123, Codez ! ». Gestion administrative, financière et de recrutement de l’école. Participation à l’élaboration de la stratégie commerciale.",
+      "fromDate": "Avril 2017 -",
+      "toDate": "Présent"
     },
     {
       "position": "Developpeur Informatique",
       "organization": "VO DSI",
-      "aboutWork": "Préparer et installer le matériel et/ou logiciel des systèmes et réseaux informatiques.\nDiagnostiquer et corriger des dysfonctionnements.\nGestion de projet web.\nDeveloppement et maintenance de site web.",
-      "fromDate": "Octobre 2017",
-      "toDate": "Aout 2019"
+      "aboutWork": "Préparer et installer le matériel et/ou logiciel des systèmes et réseaux informatiques. Diagnostiquer et corriger des dysfonctionnements. Gestion de projet web. Assurer le eveloppement et maintenance de sites web.",
+      "fromDate": "Octobre 2017 -",
+      "toDate": "Août 2019"
     }
   ],
   "education": [
     {
     "university": "IN'TECH groupe ESIEA",
     "degree": "MASTER d'Expert en Ingenierie Logiciel",
-    "gpa": "16,6",
-    "fromDate": "2019",
+    "gpa": "",
+    "fromDate": "2019 -",
     "toDate": "2021"
     },
     {
       "university": "CNAM",
       "degree": "DUT Informatique",
-      "gpa": "16,6",
+      "gpa": "",
       "fromDate": "",
       "toDate": "2019"
     },
     {
-      "university": "Lycée Charles de Gaule",
-      "degree": "BACCALAUREAT S Science de l'Ingénieur",
-      "gpa": "16,6",
+      "university": "Lycée Charles de Gaulle",
+      "degree": "BACCALAUREAT Scientifique Sciences de l'Ingénieur",
+      "gpa": "",
       "fromDate": "",
       "toDate": "2014"
     }
@@ -106,41 +106,41 @@
   "interests": [
         {
           "title": "Enseignement",
-          "paragraphe" : "J'adore apprendre et transmettre mes connaissances. J'ai eu la chance d'être Professeur d'informatique chez CodeCodeCodec. Le but étant de sensibilisé la nouvelle génération au numérique et au algorithme de programamtion.",
+          "paragraphe" : "J'adore apprendre et transmettre mes connaissances. J'ai eu la chance d'être professeur d'informatique chez CodeCodeCodec. Le but était de sensibiliser la nouvelle génération au numérique et aux algorithmes de programmation.",
           "url": "https://scontent.fcdg2-1.fna.fbcdn.net/v/t1.0-9/65818316_1423416157816090_6969738461112696832_o.jpg?_nc_cat=107&_nc_sid=9e2e56&_nc_ohc=O00Yo1Jbk1IAX-ToEf-&_nc_ht=scontent.fcdg2-1.fna&oh=563c46b8cccac0a5d5893093df44095a&oe=5EEBB2F1"
         },
         {
           "title": "Boxe",
-          "paragraphe" : "Je pratique la boxe chinois (sanda). Une pratique à la fois mental et physique",
+          "paragraphe" : "Je pratique la boxe chinoise (aussi appelé Sanda). Une pratique à la fois mentale et physique.",
           "url": "https://ffwu.be/wp-content/uploads/2019/10/sanda2.jpg"
 
         },
         {
           "title": "Cyclisme",
-          "paragraphe" : "Plus un moyen de transport qu'une passion au départ.",
+          "paragraphe" : "Ma insuflé la concentration, le travail d'équipe ainsi que le dépassement de soi.",
           "url": "https://www.stimium.com/wp-content/uploads/2019/06/progresser-cyclisme.jpg"
         },
         {
           "title": "Football",
-          "paragraphe" : "Et plus particulièrement du PSG. Celà en dit long sur ma capacité à soutenir un projet auquel je crois. Quelque soit les problèmes rencontrés",
+          "paragraphe" : "Et plus particulièrement du PSG. Cela en dit long sur ma capacité à soutenir un projet auquel je crois (Ligue des champions), quel que soit les problèmes rencontrés.",
           "url": "https://media.ouest-france.fr/v1/pictures/MjAyMDAxOWI1ZjMwOTkwMjVkZTgxMmZmNzJlN2MyYTUwNjI3OGU?width=480&height=270&focuspoint=50%2C24&cropresize=1&client_id=bpeditorial&sign=aa7b1db7c06dea97f7f84c2f8217dfec66b744ccd0295b5a9b1108f55bbd1d1c"
         }
       ],
   "awards": [
     {
-      "awardDetail": "Certification Salesforce : ADM201"
+      "awardDetail": "ADM201 - Salesforce"
     },
     {
-      "awardDetail": "Certification OpenClassroom : Angular"
+      "awardDetail": "Angular - OpenClassroom"
     },
     {
-      "awardDetail": "Certification OpenClassroom : Java"
+      "awardDetail": "Java - OpenClassroom"
     },
     {
-      "awardDetail": "Certification OpenClassroom : Ruby"
+      "awardDetail": "Ruby - OpenClassroom"
     },
     {
-      "awardDetail": "Certification OpenClassroom : Linux"
+      "awardDetail": "Linux - OpenClassroom"
     }
   ]
 }

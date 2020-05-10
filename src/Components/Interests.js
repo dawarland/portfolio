@@ -11,7 +11,7 @@ class Interests extends Component {
         return(
             <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
                 <div className="w-100">
-                    <h2 className="mb-5">Centres d'interet</h2>
+                    <h2 className="mb-5">Centres d'interet ❤</h2>
                     <div id="carouselIndicators" className="carousel slide" data-ride="carousel">
                         <ol className="carousel-indicators">
                             {

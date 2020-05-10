@@ -32,19 +32,19 @@ class Sidebar extends Component {
                             <a className="nav-link js-scroll-trigger" href="#experience">Expériences</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#education">Formations</a>
+                            <a className="nav-link js-scroll-trigger" href="#education">Diplomes</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link js-scroll-trigger" href="#awards">Certifications</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link js-scroll-trigger" href="#skills">Compétences</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#interests">Centre d'interet</a>
+                            <a className="nav-link js-scroll-trigger" href="#interests">Centres d'interet</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link js-scroll-trigger" href="#salesforce">Salesforce</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#awards">Certifications</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link js-scroll-trigger" href="#project">Réalisations</a>
