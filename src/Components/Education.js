@@ -21,8 +21,8 @@ class Education extends Component {
                                     <p>{data.gpa}</p>
                                 </div>
                                 <div className="resume-date text-md-right">
+                                    <div><img className="img img-fluid img-thumbnail" src={data.logoUrl} alt="Logo"/></div>
                                     <span className="text-primary">{data.fromDate} {data.toDate}</span>
-                                        <div><img src="#" alt="Logo"/></div>
                                 </div>
                             </div>
                         ))

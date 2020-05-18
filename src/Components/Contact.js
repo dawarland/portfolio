@@ -18,16 +18,16 @@ class Contact extends Component {
                             <input type="hidden" name="orgid" value="00D2o000000apsf"/>
                             <input type="hidden" name="retURL" value={this.url}/>
                             <div className="form-group">
-                                <input id="name" placeholder="Votre nom et prénom" className="form-control" maxLength="80" name="name" size="20" type="text"/>
+                                <input id="name" placeholder="Nom & Prénom" className="form-control" maxLength="80" name="name" size="20" type="text"/>
                             </div>
                             <div className="form-group">
-                                <input id="email" placeholder="Votre e-mail" className="form-control" maxLength="80" name="email" size="20" type="text"/>
+                                <input id="email" placeholder="E-mail" className="form-control" maxLength="80" name="email" size="20" type="text"/>
                             </div>
                             <div className="form-group">
                                 <input id="subject" placeholder="Objet" className="form-control" maxLength="80" name="subject" size="20" type="text"/>
                             </div>
                             <div className="form-group">
-                                <textarea className="form-control" placeholder="Votre message" name="description"></textarea>
+                                <textarea className="form-control" placeholder="Message" name="description"></textarea>
                                 <input type="hidden" id="external" name="external" value="1"/>
                             </div>
                             <div className="form-group">

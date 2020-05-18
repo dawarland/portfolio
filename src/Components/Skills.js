@@ -18,7 +18,7 @@ class Skills extends Component {
                     <div className="subheading mb-3">Langage de programmation &amp; Outils</div>
                     <div className="row">
                         {
-                            this.skills.map((data, index) => (
+                            this.skills.hardskill.map((data, index) => (
                                 <div key={index} className="col-6">
                                     <p className="list-item">
                                         <FontAwesomeIcon icon={faCheckCircle} color="green" />
@@ -31,7 +31,7 @@ class Skills extends Component {
                     <div className="subheading mb-3">Softskill</div>
                     <div className="row">
                         {
-                            this.skills.map((data, index) => (
+                            this.skills.softskill.map((data, index) => (
                                 <div key={index} className="col-6">
                                     <p className="list-item">
                                         <FontAwesomeIcon icon={faCheckCircle} color="green" />
@@ -41,10 +41,10 @@ class Skills extends Component {
                             ))
                         }
                     </div>
-                    <div className="subheading mb-3">Langue étrangère</div>
+                    <div className="subheading mb-3">{this.skills.language.size >1 ? "Langues étrangères" : "Langue étrangère" }</div>
                     <div className="row">
                         {
-                            this.skills.map((data, index) => (
+                            this.skills.language.map((data, index) => (
                                 <div key={index} className="col-6">
                                     <p className="list-item">
                                         <FontAwesomeIcon icon={faCheckCircle} color="green" />

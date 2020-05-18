@@ -21,8 +21,8 @@ class Experience extends Component {
                                     <p>{exp.aboutWork}</p>
                                 </div>
                                 <div className="resume-date text-md-right">
+                                    <div><img className="img img-fluid"  src={exp.logoUrl}  alt="Logo"/></div>
                                     <span className="text-primary">{exp.fromDate} {exp.toDate}</span>
-                                    <div><img src="#" alt="Logo"/></div>
                                 </div>
                             </div>
                         ))
