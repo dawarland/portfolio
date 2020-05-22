@@ -52,10 +52,10 @@ class Salesforce extends Component {
                                     </div>
                                 </div>
                             )}
+                            <small className="float-right">Source trailhead.salesforce.com</small>
                         </div>
-
                         <br/>
-                        <p>J'ai choisi de concentrer mon apprentissage sur ces technologies.</p>
+                        <p>J'ai choisi de concentrer mon apprentissage informatique autour des technologies ci-dessus afin de devenir expert dans mon domiane.</p>
                         <p>Pour les intéréssés, n'hésitez pas à vous rendre sur l'onglet "Réalisations".</p>
                     </div>
                 </div>

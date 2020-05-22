@@ -3,8 +3,9 @@
     "firstName": "Williams",
     "lastName": "Arland Anyou",
     "city": "Paris",
-    "bio": "Actuellement étudiant en Master Ingenierie du Logiciel, j'ai pu de par mes multiples expériences acquérir certaines compétences et aptitudes indispensables dans ces métiers. Passionné par le numérique et la logique, faire carrière dans le développement informatique m'a semblé inéluctable.",
     "email": "contact@williamsarland.com",
+    "poste": "Developpeur Salesforce",
+    "bio": "Actuellement étudiant en Master Ingenierie du Logiciel, j'ai pu de par mes multiples expériences acquérir certaines compétences et aptitudes indispensables dans ces métiers. Passionné par le numérique et la logique, faire carrière dans le développement informatique m'a semblé inéluctable.",
     "linkedin": "https://www.linkedin.com/in/arland-williams-374106118/",
     "github": "https://github.com/dawarland"
   },
@@ -110,6 +111,30 @@
       }
     ],
     "softskill": [
+      {
+        "name": "Ambition"
+      },
+      {
+        "name": "Dynamisme"
+      },
+      {
+        "name": "Pédagogie"
+      },
+      {
+        "name": "Esprit d'analyse"
+      },
+      {
+        "name": "Force de proposition"
+      },
+      {
+        "name": "Perseverance"
+      },
+      {
+        "name": "Prise de parole"
+      },
+      {
+        "name": "Rigueur"
+      }
     ],
     "language": [
       {
@@ -121,7 +146,7 @@
         {
           "title": "Enseignement",
           "paragraphe" : "J'adore apprendre et transmettre mes connaissances. J'ai eu la chance d'être professeur d'informatique chez CodeCodeCodec. Le but était de sensibiliser la nouvelle génération au numérique et aux algorithmes de programmation.",
-          "url": "https://scontent.fcdg2-1.fna.fbcdn.net/v/t1.0-9/65818316_1423416157816090_6969738461112696832_o.jpg?_nc_cat=107&_nc_sid=9e2e56&_nc_ohc=O00Yo1Jbk1IAX-ToEf-&_nc_ht=scontent.fcdg2-1.fna&oh=563c46b8cccac0a5d5893093df44095a&oe=5EEBB2F1"
+          "url": "https://scontent-cdg2-1.cdninstagram.com/v/t51.2885-15/e35/66449922_159149228585964_1602178781590592218_n.jpg?_nc_ht=scontent-cdg2-1.cdninstagram.com&_nc_cat=100&_nc_ohc=_YzAegDFX34AX8p_QXd&oh=47b2916702c72593b5748023b63fbfd1&oe=5EEF8173"
         },
         {
           "title": "Boxe",
@@ -145,7 +170,7 @@
       "awardDetail": "10/2019 - ADM201 - Salesforce"
     },
     {
-      "awardDetail": "08/2019 -Angular - OpenClassroom"
+      "awardDetail": "08/2019 - Angular - OpenClassroom"
     },
     {
       "awardDetail": "07/2019 - Java - OpenClassroom"

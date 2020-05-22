@@ -25,7 +25,7 @@ class Interests extends Component {
                                 this.interests.map((data, index) => (
                                     <div key={index} className={ (index === 0 ) ? "carousel-item active" : "carousel-item"}>
                                         <img className="d-block w-100 img-responsive" src={data.url} alt={data.title} />
-                                        <div className="carousel-caption d-md-block" style={{backgroundColor: "rgba(0, 123, 255, 0.6)"}} >
+                                        <div className="carousel-caption d-md-block" style={{backgroundColor: "rgba(0, 123, 255, 0.8)"}} >
                                             <h5>{data.title}</h5>
                                             <small>{data.paragraphe}</small>
                                         </div>

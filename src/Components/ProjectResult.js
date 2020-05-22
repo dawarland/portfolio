@@ -26,9 +26,9 @@ class ProjectResult extends React.Component {
                     <div className="dropdown">
                         <button className="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Selectionner une réalisation
+                            📂 Liste des réalisations
                         </button>
-                        <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div className="dropdown-menu bg-secondary" aria-labelledby="dropdownMenuButton">
                             {this.props.projectData.map(
                                 (item, index) =>
                                     <a className="js-scroll-trigger dropdown-item" href={"projet" + index}
@@ -41,9 +41,9 @@ class ProjectResult extends React.Component {
                         padding : '2%',
                         border : 'solid'}}>
                         <img className="rounded float-right img-fluid"
-                             src={this.state.project.img} />
+                             src={this.state.project.img}/>
                         <h3 className="mb-0">{this.state.project.Name}</h3>
-                        <h4 className="text-secondary">{this.state.project.Role}</h4>
+                        <h4 className="text-secondary">👤 {this.state.project.Role}</h4>
                         <br/>
                         <h4>Présentation :</h4>
                         <p>
@@ -99,10 +99,47 @@ class ProjectResult extends React.Component {
                             </table>
                         </div>
                     </div>
+                        <div className="row">
+                            <div className="col">
+                                <table className="table">
+                                    <thead>
+                                    <tr className="bg-info">
+                                        <td>Compétences liées</td>
+                                        <td> </td>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {this.state.project.Skills.map(
+                                        (item) =>
+                                            <tr>
+                                                <td>{item.skill}</td>
+                                                {item.url
+                                                    ? <td><img height="20px" width="20px" src={item.url}/></td>
+                                                    : <td></td>
+                                                }
+                                            </tr>
+                                    )}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                         <div className="text-center">
 
                         </div>
                 </div>
+                    <div className="dropup">
+                        <button className="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            📂 Liste des réalisations
+                        </button>
+                        <div className="dropdown-menu bg-secondary" aria-labelledby="dropdownMenuButton">
+                            {this.props.projectData.map(
+                                (item, index) =>
+                                    <a className="js-scroll-trigger dropdown-item" href={"projet" + index}
+                                       onClick={this.handleClick}>{item.Name}</a>
+                            )}
+                        </div>
+                    </div>
                 </div>
                 </section>
             )
@@ -112,9 +149,9 @@ class ProjectResult extends React.Component {
                         <div className="dropdown">
                             <button className="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Selectionner une réalisation
+                                📁 Liste des réalisations
                             </button>
-                            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <div className="dropdown-menu bg-secondary" aria-labelledby="dropdownMenuButton">
                                 {this.props.projectData.map(
                                     (item, index) =>
                                         <a className="js-scroll-trigger dropdown-item" href={"projet" + index}
@@ -127,60 +164,17 @@ class ProjectResult extends React.Component {
                         padding : '2%',
                         border : 'solid',
                         backgroundImage: 'url("../Assets/aww.png")'}}>
-                    <img className="d-block w-100 img-responsive" src={this.state.project.img} alt="" />
-                    <h3>Nom du projet : ??? </h3>
-                    <h3 className="mb-0"> </h3>
-                    <h4 className="text-secondary">Mon Role : ???</h4>
+                            <img className="d-block w-100 img-responsive" src={this.state.project.img} alt="" />
+                            <p className="text-center">⬆️ Selectionnez un projet dans la liste ci-dessus ⬆️</p>
 
-                    <h4>Présentation :</h4>
-                    <ul>
 
-                    </ul>
-
-                    <h4>Objectif, Contexte, Enjeux, Risques :</h4>
-                    <p>
-
-                    </p>
-
-                    <h4>Missions :</h4>
-                    <ul>
-
-                    </ul>
-
-                    <div className="row">
-                        <div className="col">
-                            <table className="table">
-                                <thead>
-                                <tr className="bg-success">
-                                    <td>Benefices</td>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                        <tr>
-                                            <td></td>
-                                        </tr>
-
-                                </tbody>
-                            </table>
                         </div>
-                        <div className="col">
-                            <table className="table">
-                                <thead>
-                                <tr className="bg-danger">
-                                    <td>Contraintes</td>
-                                </tr>
-                                </thead>
-                                <tbody>
-
-                                        <tr>
-                                            <td></td>
-                                        </tr>
-
-                                </tbody>
-                            </table>
+                        <div class="dropup">
+                            <button type="button" className="btn btn-secondary btn-block">
+                                &nbsp;
+                            </button>
                         </div>
-                    </div>
-                </div>
+
                     </div>
             </section>);
     }
