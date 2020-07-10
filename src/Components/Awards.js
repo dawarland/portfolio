@@ -20,7 +20,7 @@ class Awards extends Component {
                             this.awards.map((data, index) => (
                                 <li key={index}>
                                     <FontAwesomeIcon icon={faAward} color="#ffc107" />
-                                    <span className="ml-2"> {data.awardDetail} </span>
+                                    <span className="ml-2"><b>{data.awardTitle}</b> - {data.awardOrg} - {data.awardDetail}</span>
                                 </li>
                             ))
                         }

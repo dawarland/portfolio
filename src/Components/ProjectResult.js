@@ -41,7 +41,7 @@ class ProjectResult extends React.Component {
                         padding : '2%',
                         border : 'solid'}}>
                         <img className="rounded float-right img-fluid"
-                             src={this.state.project.img}/>
+                             src={this.state.project.img} title={"Logo de "+ this.state.project.Name} alt={"Logo de "+ this.state.project.Name} />
                         <h3 className="mb-0">{this.state.project.Name}</h3>
                         <h4 className="text-secondary">👤 {this.state.project.Role}</h4>
                         <br/>
@@ -50,12 +50,17 @@ class ProjectResult extends React.Component {
                             { this.state.project.Presentation }
                         </p>
 
-                        <h4>Objectif, Contexte, Enjeux, Risques :</h4>
+                        <h4>Contexte :</h4>
                         <p>
-                            {this.state.project.Context}
+                            {this.state.project.Contexte}
                         </p>
 
-                        <h4>Missions</h4>
+                        <h4>Objectif :</h4>
+                        <p>
+                            {this.state.project.Objectif}
+                        </p>
+
+                        <h4>Missions :</h4>
                         <ul>
                             {this.state.project.Missions.map(
                                 (item) =>
@@ -114,7 +119,7 @@ class ProjectResult extends React.Component {
                                             <tr>
                                                 <td>{item.skill}</td>
                                                 {item.url
-                                                    ? <td><img height="20px" width="20px" src={item.url}/></td>
+                                                    ? <td><img height="20px" width="20px" src={item.url} title={"Logo de "+this.skill} alt={"Logo de "+this.skill} /></td>
                                                     : <td></td>
                                                 }
                                             </tr>
@@ -164,8 +169,8 @@ class ProjectResult extends React.Component {
                         padding : '2%',
                         border : 'solid',
                         backgroundImage: 'url("../Assets/aww.png")'}}>
-                            <img className="d-block w-100 img-responsive" src={this.state.project.img} alt="" />
-                            <p className="text-center">⬆️ Selectionnez un projet dans la liste ci-dessus ⬆️</p>
+                            <img className="d-block w-100 img-responsive" src={this.state.project.img} title="Logo" alt="Logo" />
+                            <p className="text-center">⬆️ Selectionner un projet dans la liste ci-dessus ⬆️</p>
 
 
                         </div>

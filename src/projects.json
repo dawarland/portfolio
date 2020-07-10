@@ -2,18 +2,19 @@
   "projects": [
     {
       "Name": "The Last Soldier Defender (16,51/20)",
-      "Presentation": "TLSD est un jeu de type Tower Defense programmé en Java. Le soldat arrive sur une planète et doit défendre son vaisseau des vagues d'attaques ennemie, en disposant tactiquement des tours de combat. Arriverez-vous à atteindre le niveau final ?",
-      "Objectif": "Réalisé en groupe de 3 élèves. Projet scolaire de Conception d'un jeu en Java respectant l'architecture MVC pour la validation d'une unité d'enseignement. Avec la possibilité d'ajouter des fonctionnalités : Création de différent niveaux/mondes dynamiques, gestion des meilleurs scores, drag and drop.",
+      "Presentation": "TLSD est un jeu de type Tower Defense programmé en Java. Le soldat arrive sur une planète et doit défendre son vaisseau des vagues d'attaques ennemies, en disposant tactiquement de tours de combat. Arriverez-vous à atteindre le niveau final ?",
+      "Objectif": "Réalisé en groupe de 3 élèves, ce projet de conception d'un jeu en Java respecte l'architecture MVC pour la validation d'une unité d'enseignement. Possibilité d'ajouter des fonctionnalités : création de différents niveaux/mondes dynamiques, gestion des meilleurs scores, drag and drop.",
+      "Contexte": "Projet scolaire réalisé lors de ma deuxième année de DUT informatique afin de valider une unité d'enseignement sur le langage de programmation Java.",
       "Role": "Chef de projet / Développeur",
       "Missions": [
         {
-          "mission": "Présentation des sprints"
+          "mission": "Présenter des sprints"
         },
         {
-          "mission": "Programmation de l'affichage du jeux à l'aide des informations données par contrôleur"
+          "mission": "Programmer l'affichage du jeu à l'aide des informations données par le contrôleur"
         },
         {
-          "mission": "Programmation des algorithmes de parcours en profondeur"
+          "mission": "Programmer des algorithmes de parcours en profondeur"
         }
       ],
       "Benefits": [
@@ -21,7 +22,7 @@
           "benefit": "Montée en compétences sur les technologies utilisées et sur l'encadrement d'un projet"
         },
         {
-          "benefit": "Bon retour sur le livrable (agréable à jouer, niveau de difficulté modérée, graphisme cohérent etc...)"
+          "benefit": "Bon retour sur le livrable (agréable à jouer, niveau de difficulté modéré, graphisme cohérent etc...)"
         },
         {
           "benefit": "Bonne collaboration d'équipe"
@@ -43,7 +44,7 @@
           "skill": "Gestion de Projet Agile Scrum"
         },
         {
-          "skill": "Java 8",
+          "skill": "Java 11",
           "url": "https://www.solutions-numeriques.com/wp-content/uploads/2016/03/java.png"
         },
         {
@@ -73,20 +74,21 @@
     {
       "Name": "Extranet Code Code Codec (16/20)",
       "Presentation": "Site sécurisé de gestion des élèves avec plusieurs niveaux d'utilisateurs, connecté à un microservice qui alerte en cas d'absence d'un professeur.",
-      "Objectif": "CodeCodeCodec est une école d'informatique pour les enfants de 7 à 14 ans. A mon arrivée, la gestion des élèves ce faisait sur un exel. J'ai donc proposé la conception d'un site de gestion avec quelques foncitonnalités. C'est donc un projet Scolaire et Professionnel réalisé seul. From Scratch, programmé en PHP respectant l'architecture MVC pour la validation d'une unité d'enseignement. ",
-      "Role": "Developpeur Full Stack",
+      "Objectif": " Lors de mon arrivée, la gestion des élèves se faisait sur un tableur Excel. J'ai donc proposé la conception d'un site de gestion comprenant diverses fonctionnalités. C'est donc un projet scolaire et professionnel réalisé seul. From Scratch, programmé en PHP et respectant l'architecture MVC pour la validation d'une unité d'enseignement. ",
+      "Contexte": "CodeCodeCodec est une école d'informatique pour les enfants âgés de 7 à 14 ans, en manque d'un outil permettant l'optimisaiton de la gestion des planning. ",
+      "Role": "Développeur Full Stack",
       "Missions": [
         {
-          "mission": "Analyse du besoin métier"
+          "mission": "Analyser le besoin métier"
         },
         {
-          "mission": "Elaboration du MCD"
+          "mission": "Elaborer du MCD"
         },
         {
-          "mission": "Développement du site internet"
+          "mission": "Développer un site internet"
         },
         {
-          "mission": "Mise en production sur le serveur de l'entreprise"
+          "mission": "Mettre en production le serveur de l'entreprise"
         }
       ],
       "Benefits": [
@@ -97,7 +99,7 @@
           "benefit": "Montée en compétences sur les technologies utilisées et sur l'encadrement d'un projet"
         },
         {
-          "benefit": "Beaucoup d'autoformation"
+          "benefit": "Autoformation"
         }
       ],
       "Constraints": [
@@ -105,10 +107,10 @@
           "constraint": "Technologies imposées par la matière."
         },
         {
-          "constraint": "Legerté de la documentation rendant la maintenance moins simple."
+          "constraint": "Legèreté de la documentation rendant la maintenance plus complexe."
         },
         {
-          "constraint": "Faute de temps, je n'ai pas pu automatisé l'ajout d'un nouvel élève suite à une commande sur le site marchant."
+          "constraint": "Faute de temps, je n'ai pas pu automatiser l'ajout d'un nouvel élève suite à une commande sur le site marchand."
         }
       ],
       "Skills": [
@@ -128,7 +130,7 @@
           "skill": "Gestion de Projet"
         },
         {
-          "skill": "Deploiement"
+          "skill": "Déploiement"
         },
         {
           "skill": "Autonomie"
@@ -145,20 +147,21 @@
     },
     {
       "Name": "Générateur de CV",
-      "Presentation": "Projet personel en Javascript",
-      "Objectif": "Conception d'une application web générant un CV en ligne",
+      "Presentation": "Projet personnel en Javascript (en cours de développement)",
+      "Objectif": "Conception du site en vue de progresser sur ce langage",
+      "Contexte": "Désireux de progresser sur le langage JavaScript, je me suis fixer comme objectif de développer un outil à forte utilité sociale.",
       "Role": "Développeur Full Stack",
       "Missions": [
         {
-          "mission": "Conception des fonctions et des classes de test"
+          "mission": "Concevoir des fonctions et des classes de test"
         },
         {
-          "mission": "Mise en production"
+          "mission": "Mettre en production le livrable"
         }
       ],
       "Benefits": [
         {
-          "benefit": "Monté en compétences sur les technologies utilisées."
+          "benefit": "Montée en compétences sur les technologies utilisées."
         },
         {
           "benefit": "Autodidactie."
@@ -182,7 +185,7 @@
           "skill": "Autonomie"
         },
         {
-          "skill": "Perseverance"
+          "skill": "Persévérance"
         },
         {
           "skill": "Rigueur"
@@ -192,16 +195,17 @@
       "url": "https://github.com/dawarland"
     },
     {
-      "Name": "Demineur (20/20)",
+      "Name": "Démineur (20/20)",
       "Presentation": "Le célèbre jeu du démineur en console et sans interface graphique.",
-      "Objectif": "Projet Scolaire noté réalisé en binôme. Conception d'un jeu pour console (terminal) en C. Possibilité de paramétrer la taille du terrain, de sauvegarder/reprendre une partie, obtenir le meilleur score, etc.",
+      "Objectif": "Projet scolaire noté réalisé en binôme. Conception d'un jeu pour console (terminal) en C. Possibilité de paramétrer la taille du terrain, de sauvegarder/reprendre une partie, d'obtenir le meilleur score etc...",
+      "Contexte": "Projet scolaire en binôme afin d'expérimenter le langage C",
       "Role": "Chef de projet / Développeur",
       "Missions": [
         {
-          "mission": "Programation des algorithmes du jeu"
+          "mission": "Programmer les algorithmes du jeu"
         },
         {
-          "mission": "Rapporter les problèmes rencontrés du groupe"
+          "mission": "Rapporter les problèmes de groupe rencontrés"
         }
       ],
       "Benefits": [
@@ -220,16 +224,13 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/262px-The_C_Programming_Language_logo.svg.png"
         },
         {
-          "skill": "Gestion de Projet"
+          "skill": "Gestion de projet"
         },
         {
           "skill": "Autodidactie"
         },
         {
           "skill": "Rigueur"
-        },
-        {
-          "skill": "Autodidactie"
         },
         {
           "skill": "Leadership"
@@ -241,17 +242,18 @@
     {
       "Name": "Formulaire de contact \"Web-to-Case\"",
       "Presentation": "Utilisation de la fonctionnalité de demande de support pour le formulaire de contact de mon site",
-      "Objectif": "Utilisation des serveurs de Salesforce pour la gestion des messages recu via mon site. Cela me permet de profiter de la puissance de Salesforce : envoie automatique d'un accusé de reception, reporting, suivie du traitement d'un message, etc.",
+      "Objectif": "Utilisation des serveurs de Salesforce pour la gestion des messages reçus via mon site. Cela me permet de profiter de la puissance de Salesforce : envoi automatique d'un accusé de réception, reporting, suivi du traitement d'un message etc...",
+      "Contexte": "Projet personnel de s'inspirer des fonctionnalités du CRM Salesforce afin de les transposer sur mon site internet",
       "Role": "Administrateur / Développeur Salesforce",
       "Missions": [
         {
-          "mission": "Configuration de l'organisation Salesforce"
+          "mission": "Configurer l'organisation Salesforce"
         },
         {
-          "mission": "Création de Flow Salesforce"
+          "mission": "Créer des Flow Salesforce"
         },
         {
-          "mission": "Integration du Web-to-case"
+          "mission": "Intégrer des Web-to-case"
         }
       ],
       "Benefits": [
@@ -264,7 +266,7 @@
       ],
       "Constraints": [
         {
-          "constraint": "Réalisé sur une organisation de developpement. Fonctionnalités payantes manquantes."
+          "constraint": "Réalisation des tâches sur une organisation de développement. Fonctionnalités payantes manquantes."
         }
       ],
       "Skills": [

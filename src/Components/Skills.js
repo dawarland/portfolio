@@ -15,7 +15,7 @@ class Skills extends Component {
             <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
                 <div className="w-100">
                     <h2 className="mb-5">Compétences 💻</h2>
-                    <div className="subheading mb-3">Langage de programmation &amp; Outils</div>
+                    <div className="subheading mb-3">Langages de programmation &amp; Outils</div>
                     <div className="row">
                         {
                             this.skills.hardskill.map((data, index) => (
@@ -28,7 +28,7 @@ class Skills extends Component {
                             ))
                         }
                     </div>
-                    <div className="subheading mb-3">Softskill</div>
+                    <div className="subheading mb-3">Softskills</div>
                     <div className="row">
                         {
                             this.skills.softskill.map((data, index) => (

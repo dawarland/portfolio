@@ -13,16 +13,22 @@ class Experience extends Component {
                 <div className="w-100">
                     <h2 className="mb-5">Expériences 💼</h2>
                     {
-                        this.experience.map((exp, index) => (
+                        this.experience.map(({position,organization,aboutWork,logoUrl,fromDate,toDate}, index) => (
                             <div key={index} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                                 <div className="resume-content">
-                                    <h3 className="mb-0">{exp.position}</h3>
-                                    <div className="subheading mb-3">{exp.organization}</div>
-                                    <p>{exp.aboutWork}</p>
+                                    <h3 className="mb-0">{position}</h3>
+                                    <div className="subheading mb-3">{organization}</div>
+                                    <ul>
+                                    {
+                                        /*aboutWork.forEach((item) => (
+                                            <li>item.aw</li>
+                                        ))*/
+                                    }
+                                    </ul>
                                 </div>
                                 <div className="resume-date text-md-right">
-                                    <div><img className="img img-fluid"  src={exp.logoUrl}  alt="Logo"/></div>
-                                    <span className="text-primary">{exp.fromDate} {exp.toDate}</span>
+                                    <div><img className="img img-fluid"  src={logoUrl} title={"Logo de "+ organization} alt={"Logo de "+ organization}/></div>
+                                    <span className="text-primary">{fromDate} {toDate}</span>
                                 </div>
                             </div>
                         ))

@@ -17,7 +17,7 @@ class Sidebar extends Component {
                 <a className="navbar-brand js-scroll-trigger" href="#about">
                     <span className="d-block d-lg-none">{this.sidebarData.firstName} {this.sidebarData.lastName}</span>
                     <span className="d-none d-lg-block">
-                        <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={(window.location.hash == '#project' ? devImg :profilImg )} alt="me"></img>
+                        <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={(window.location.hash == '#project' ? devImg :profilImg )} title={(window.location.hash == '#project' ? "Image Développeur" :"Photo de Williams ARLAND ANYOU" )} alt={(window.location.hash == '#project' ? "Image Développeur" :"Photo de Williams ARLAND ANYOU" )}></img>
                     </span>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
