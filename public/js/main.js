@@ -21,7 +21,7 @@ function changeColor(){
             document.getElementById("sideNav").classList.add('bg-dark');
         }
     }else {
-        if ( document.getElementById("sideNav").classList.contains('bg-dark') ){
+        if ( document.getElementById("sideNav") && document.getElementById("sideNav").classList.contains('bg-dark') ){
             document.getElementById("sideNav").classList.remove('bg-dark');
             document.getElementById("sideNav").classList.add('bg-primary');
         }
