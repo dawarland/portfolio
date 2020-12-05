@@ -74,7 +74,7 @@
     {
       "Name": "Extranet Code Code Codec (16/20)",
       "Presentation": "Site sécurisé de gestion des élèves avec plusieurs niveaux d'utilisateurs, connecté à un microservice qui alerte en cas d'absence d'un professeur.",
-      "Objectif": " Lors de mon arrivée, la gestion des élèves se faisait sur un tableur Excel. J'ai donc proposé la conception d'un site de gestion comprenant diverses fonctionnalités. C'est donc un projet scolaire et professionnel réalisé seul. From Scratch, programmé en PHP et respectant l'architecture MVC pour la validation d'une unité d'enseignement. ",
+      "Objectif": "Lors de mon arrivée, la gestion des élèves se faisait sur un tableur Excel. J'ai donc proposé la conception d'un site de gestion comprenant diverses fonctionnalités. C'est donc un projet scolaire et professionnel réalisé seul. From Scratch, programmé en PHP et respectant l'architecture MVC pour la validation d'une unité d'enseignement.",
       "Contexte": "CodeCodeCodec est une école d'informatique pour les enfants âgés de 7 à 14 ans, en manque d'un outil permettant l'optimisaiton de la gestion des planning. ",
       "Role": "Développeur Full Stack",
       "Missions": [
@@ -88,7 +88,7 @@
           "mission": "Développer un site internet"
         },
         {
-          "mission": "Mettre en production le serveur de l'entreprise"
+          "mission": "Mettre en production sur le serveur de l'entreprise"
         }
       ],
       "Benefits": [
@@ -252,7 +252,7 @@
         {
           "mission": "Créer des Flow Salesforce"
         },
-        {
+        {	
           "mission": "Intégrer des Web-to-case"
         }
       ],
