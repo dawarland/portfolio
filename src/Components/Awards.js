@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAward } from "@fortawesome/free-solid-svg-icons";
+
 
 
 class Awards extends Component {
@@ -18,10 +17,10 @@ class Awards extends Component {
                     <ul className="fa-ul mb-0">
                         {
                             this.awards.map((data, index) => (
-                                <li key={index}>
-                                    <FontAwesomeIcon icon={faAward} color="#ffc107" />
+                                <div key={index} className="col-6">
+                                    🟢<i className="fas fa-award"></i>
                                     <span className="ml-2"><b>{data.awardTitle}</b> - {data.awardOrg} - {data.awardDetail}</span>
-                                </li>
+                                </div>
                             ))
                         }
                     </ul>

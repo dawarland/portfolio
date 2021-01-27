@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import aww from "../Assets/aww.png";
 
 class Landing extends Component {
@@ -28,10 +26,12 @@ class Landing extends Component {
 
                     <div className="social-icons">
                         <a href={this.landingData.linkedin}>
-                            <FontAwesomeIcon icon={faLinkedin} />
+                            In
+                            <i className="fab fa-linkedin"></i>
                         </a>
                         <a href={this.landingData.github}>
-                            <FontAwesomeIcon icon={faGithub} />
+                            Git
+                            <i className="fab fa-github"></i>
                         </a>
                     </div>
                     </div>

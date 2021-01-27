@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 
 class Skills extends Component {
@@ -21,7 +19,7 @@ class Skills extends Component {
                             this.skills.hardskill.map((data, index) => (
                                 <div key={index} className="col-6">
                                     <p className="list-item">
-                                        <FontAwesomeIcon icon={faCheckCircle} color="green" />
+                                        <i className="fas fa-check-circle"></i>✅
                                         <span className="ml-3">{data.name}</span>
                                     </p>
                                 </div>
@@ -34,7 +32,7 @@ class Skills extends Component {
                             this.skills.softskill.map((data, index) => (
                                 <div key={index} className="col-6">
                                     <p className="list-item">
-                                        <FontAwesomeIcon icon={faCheckCircle} color="green" />
+                                        <i className="fas fa-check-circle"></i>✅
                                         <span className="ml-3">{data.name}</span>
                                     </p>
                                 </div>
@@ -47,7 +45,7 @@ class Skills extends Component {
                             this.skills.language.map((data, index) => (
                                 <div key={index} className="col-6">
                                     <p className="list-item">
-                                        <FontAwesomeIcon icon={faCheckCircle} color="green" />
+                                        <i className="fas fa-check-circle"></i>✅
                                         <span className="ml-3">{data.name}</span>
                                     </p>
                                 </div>

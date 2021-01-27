@@ -3,13 +3,37 @@
     "firstName": "Williams",
     "lastName": "Arland Anyou",
     "city": "Paris",
-    "email": "contact@williamsarland.com",
+    "email": "contact@williamsarland.fr",
     "poste": "Développeur Salesforce",
     "bio": "Actuellement étudiant en Master Ingénierie du Logiciel, j'ai pu de par mes diverses expériences acquérir de multiples compétences et aptitudes indispensables dans ces métiers. Passionné par le numérique et la logique, faire carrière dans le développement informatique m'a semblé inéluctable.",
     "linkedin": "https://www.linkedin.com/in/williams-arland-374106118/",
     "github": "https://github.com/dawarland"
   },
   "experience": [
+    {
+      "position": "Consultant Technique Salesforce ☁",
+      "organization": "France Boissons x Capgemini ♠",
+      "aboutWork": [
+        {
+          "aw" : "Préparation / Présentation de démo client"
+        },
+        {
+          "aw" : "Mise en place de l’integration sécurisé des systèmes externes (SAP, BDD client, API, Odata avec authentification OAuth)"
+        },
+        {
+          "aw" : "Développement de classe APEX et de test nécessaire"
+        },
+        {
+          "aw" : "Développement de Lightning Web Component et déploiement"
+        },
+        {
+          "aw" : "Déploiement les différentes realeases en production"
+        }
+      ],
+      "fromDate": "Septembre 2021 -",
+      "toDate": "Présent",
+      "logoUrl": "https://www.france-boissons.fr/uploads/151006_logo_FB_octobre_3906_001.jpg"
+    },
     {
       "position": "Consultant Technique Salesforce ☁",
       "organization": "Total x Capgemini ♠",
@@ -31,7 +55,7 @@
         }
       ],
       "fromDate": "Décembre 2019 -",
-      "toDate": "Présent",
+      "toDate": "Aout 2020",
       "logoUrl": "https://www.total.com/themes/custom/total_com/dist/img/logo_total_290x70px_v3.png"
     },
     {
@@ -222,8 +246,13 @@
   ],
   "awards": [
     {
+      "awardDetail": "11/2020",
+      "awardTitle": "Platform Developer I",
+      "awardOrg": "Salesforce"
+    },
+    {
       "awardDetail": "10/2019",
-      "awardTitle": "ADM201",
+      "awardTitle": "Administrator",
       "awardOrg": "Salesforce"
     },
     {
