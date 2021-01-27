@@ -1,6 +1,9 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "engines": {
+    "node": "14.4.0"
+  },
   "private": true,
   "dependencies": {
     "@ngx-share/core": "^7.1.4",
