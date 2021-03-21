@@ -26,11 +26,11 @@ class Landing extends Component {
 
                     <div className="social-icons">
                         <a href={this.landingData.linkedin}>
-                            In
+                            <img className="img" width="30px" height="30px" src="https://www.nadacevinci.cz/wp-content/uploads/2020/04/linkedin-icon-for-email-23.png" title="In" alt="In"></img>
                             <i className="fab fa-linkedin"></i>
                         </a>
                         <a href={this.landingData.github}>
-                            Git
+                            <img className="img" width="30px" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" title="Git" alt="Git"></img>
                             <i className="fab fa-github"></i>
                         </a>
                     </div>

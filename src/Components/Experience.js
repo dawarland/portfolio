@@ -27,7 +27,7 @@ class Experience extends Component {
                                     </ul>
                                 </div>
                                 <div className="resume-date text-md-right">
-                                    <div><img className="img img-fluid"  src={logoUrl} title={"Logo de "+ organization} alt={"Logo de "+ organization}/></div>
+                                    <div><img className="img img-fluid img-max"  src={logoUrl} title={"Logo de "+ organization} alt={"Logo de "+ organization}/></div>
                                     <span className="text-primary">{fromDate} {toDate}</span>
                                 </div>
                             </div>

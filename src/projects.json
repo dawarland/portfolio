@@ -69,7 +69,7 @@
         }
       ],
       "img": "https://williamsarland-dev-ed--c.visualforce.com/resource/1589152155000/tlsd",
-      "Url": "https://github.com/dawarland"
+      "url": ""
     },
     {
       "Name": "Extranet Code Code Codec (16/20)",
@@ -143,7 +143,7 @@
         }
       ],
       "img": "https://williamsarland-dev-ed--c.visualforce.com/resource/1589152007000/extranet",
-      "Url": "https://github.com/dawarland"
+      "url": ""
     },
     {
       "Name": "Générateur de CV",
@@ -192,7 +192,7 @@
         }
       ],
       "img": "aww.png",
-      "url": "https://github.com/dawarland"
+      "url": ""
     },
     {
       "Name": "Démineur (20/20)",
@@ -237,7 +237,7 @@
         }
       ],
       "img": "https://williamsarland-dev-ed--c.visualforce.com/resource/1589150950000/demineur",
-      "url": "https://github.com/dawarland"
+      "url": "https://github.com/dawarland/projetDemineurC"
     },
     {
       "Name": "Formulaire de contact \"Web-to-Case\"",
@@ -282,7 +282,7 @@
         }
       ],
       "img": "",
-      "url": "https://github.com/dawarland"
+      "url": "#contact"
     },
     {
       "Name": "Portfolio \"Salesforce\"",
@@ -336,6 +336,104 @@
       ],
       "img": "",
       "url": "https://github.com/dawarland"
+    },
+    {
+      "Name": "Le Pendu",
+      "Presentation": "Développement du jeu du Pendu",
+      "Objectif": "Création d'une interface pour le jeu du Pendu.",
+      "Contexte": "Projet personnel ayant pour but d'être utilisé avec mes élèves, et de monter en compétence la réalisation de petit projet web",
+      "Role": "Développeur Front End",
+      "Missions": [
+        {
+          "mission": "Concevoir les algorithmes du jeu"
+        },
+        {
+          "mission": "Developper les tests unitaire et les tests End-to-End"
+        }
+      ],
+      "Benefits": [
+        {
+          "benefit": "Montée en compétences sur la technologie utilisée"
+        },
+        {
+          "benefit": "Utilisation de nouveau paradigme de programmation web (react hooks)"
+        },
+        {
+          "benefit": "Utilisation de la methode de test TDD"
+        }
+      ],
+      "Constraints": [
+        {
+          "constraint": "Delais réduit. Le challenge était de le faire en 2h."
+        }
+      ],
+      "Skills": [
+        {
+          "skill": "React",
+          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+        },
+        {
+          "skill": "Autonomie"
+        }
+      ],
+      "img": "",
+      "url": "https://github.com/dawarland/react-pendu"
+    },
+    {
+      "Name": "Voila-ma-carte",
+      "Presentation": "Web application de carte de visite digital. Hébergé sur les serveur Heroku.",
+      "Objectif": "Permettre à des professionnels de partager leurs reseaux via un qrcode",
+      "Contexte": "Projet réaliser pour un tier.",
+      "Role": "Chef de projet / Développeur Full-Stack",
+      "Missions": [
+        {
+          "mission": "Programmer les interfaces."
+        },
+        {
+          "mission": "Sécuriser la web application (OWASP)."
+        },
+        {
+          "mission": "Créer l'api et lintegrer."
+        }
+      ],
+      "Benefits": [
+        {
+          "benefit": "Montée en compétences sur la technologie utilisée"
+        },
+        {
+          "benefit": "Integration et mis en production."
+        }
+      ],
+      "Constraints": [
+        {
+          "constraint": "Pas encore de systeme de monetisation."
+        }
+      ],
+      "Skills": [
+        {
+          "skill": "React",
+          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+        },
+        {
+          "skill": "API NodeJS",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
+        },
+        {
+          "skill": "MongoDB",
+          "url": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/45/MongoDB-Logo.svg/langfr-220px-MongoDB-Logo.svg.png"
+        },
+        {
+          "skill": "Gestion de projet"
+        },
+        {
+          "skill": "Autodidactie"
+        },
+        {
+          "skill": "Rigueur"
+        }
+      ],
+      "img": "https://williamsarland-dev-ed--c.visualforce.com/resource/1589150950000/demineur",
+      "url": "https://voila-ma-carte.herokuapp.com/"
     }
   ]
 }

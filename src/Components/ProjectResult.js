@@ -10,10 +10,8 @@ class ProjectResult extends React.Component {
 
     handleClick = (event) => {
         const {href} = event.target;
-        console.log("Jai cliqué sur ", href);
         const parseIndex = href.split('projet')[1];
         const result = this.props.projectData[parseIndex];
-        console.log(result);
         this.setState(state => ({project:result}) );
         event.preventDefault();
     };
@@ -40,10 +38,14 @@ class ProjectResult extends React.Component {
                         margin : '0',
                         padding : '2%',
                         border : 'solid'}}>
-                        <img className="rounded float-right img-fluid"
-                             src={this.state.project.img} title={"Logo de "+ this.state.project.Name} alt={"Logo de "+ this.state.project.Name} />
+                        {this.state.project.img && <img className="rounded float-right img-fluid"
+                                                        src={this.state.project.img}
+                                                        title={"Logo de " + this.state.project.Name}
+                                                        alt={"Logo de " + this.state.project.Name}/>
+                        }
                         <h3 className="mb-0">{this.state.project.Name}</h3>
                         <h4 className="text-secondary">👤 {this.state.project.Role}</h4>
+                        { this.state.project.url && <h5 className="text-secondary">🔎 <a href={this.state.project.url} target="_blank">le lien</a></h5> }
                         <br/>
                         <h4>Présentation :</h4>
                         <p>
@@ -169,7 +171,6 @@ class ProjectResult extends React.Component {
                         padding : '2%',
                         border : 'solid',
                         backgroundImage: 'url("../Assets/aww.png")'}}>
-                            <img className="d-block w-100 img-responsive" src={this.state.project.img} title="Logo" alt="Logo" />
                             <p className="text-center">⬆️ Selectionner un projet dans la liste ci-dessus ⬆️</p>
 
 
