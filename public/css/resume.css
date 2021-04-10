@@ -139,3 +139,31 @@ a:active, a:focus, a:hover {
 .img-max {
     max-width: 20vw;
 }
+
+.hide{
+    height: 0;
+    transition: all .2s ease-in-out;
+    transform: scaleY(0);
+}
+@media (max-width:767px) {
+    .hide{
+        height: auto;
+        transition: all .2s ease-in-out;
+        transform: scaleY(1);
+    }
+}
+
+.hover-action{
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+.hover-action:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.hover-action:hover + .hide {
+    height: auto;
+    transition: all .2s ease-in-out;
+    transform: scale(1);
+}

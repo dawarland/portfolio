@@ -13,22 +13,29 @@ class Experience extends Component {
                 <div className="w-100">
                     <h2 className="mb-5">Expériences 💼</h2>
                     {
-                        this.experience.map(({position,organization,aboutWork,logoUrl,fromDate,toDate}, index) => (
+                        this.experience.map( ({position,organization,aboutWork,logoUrl,fromDate,toDate, siteUrl, contractType}, index) => (
                             <div key={index} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                                 <div className="resume-content">
-                                    <h3 className="mb-0">{position}</h3>
-                                    <div className="subheading mb-3">{organization}</div>
-                                    <ul>
-                                    {
-                                        /*aboutWork.forEach((item) => (
-                                            <li>item.aw</li>
-                                        ))*/
-                                    }
-                                    </ul>
+                                    <div className="hover-action">
+                                        <h3 className="mb-0">{position}</h3>
+                                        <div className="subheading mb-3">{organization}</div>
+                                    </div>
+                                    <div className="hide">
+                                        <ul>
+                                        {
+                                            [...aboutWork].map((item, idx) => (
+                                                <li key={idx}>{item.aw}</li>
+                                            ))
+                                        }
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div className="resume-date text-md-right">
-                                    <div><img className="img img-fluid img-max"  src={logoUrl} title={"Logo de "+ organization} alt={"Logo de "+ organization}/></div>
+                                    <div>
+                                        <a href={siteUrl} target="on_blank"><img className="img img-fluid img-max"  src={logoUrl} title={"Logo de "+ organization} alt={"Logo de "+ organization}/></a>
+                                    </div>
                                     <span className="text-primary">{fromDate} {toDate}</span>
+                                    <div className="text-secondary">{contractType}</div>
                                 </div>
                             </div>
                         ))
