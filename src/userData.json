@@ -12,6 +12,32 @@
   "experience": [
     {
       "position": "Consultant Technique Salesforce ☁",
+      "organization": "Renault",
+      "contractType": "Projet client",
+      "aboutWork": [
+        {
+          "aw" : "Préparation / Présentation de démo client 🇬🇧"
+        },
+        {
+          "aw" : "Deploiement continue avec Gitlab"
+        },
+        {
+          "aw" : "Développement de classe APEX et de test nécessaire"
+        },
+        {
+          "aw" : "Développement de Lightning Web Component et déploiement"
+        },
+        {
+          "aw" : "Analyse et correction des bugs"
+        }
+      ],
+      "fromDate": "Mai 2021 -",
+      "toDate": "Présent",
+      "logoUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.fr%2Fpin%2F739082988840542438%2F&psig=AOvVaw07ssGEIRIIa3RikLOrg7fk&ust=1622127037773000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKC9-aDM5_ACFQAAAAAdAAAAABAD",
+      "siteUrl": "https://www.renault.fr/"
+    },
+    {
+      "position": "Consultant Technique Salesforce ☁",
       "organization": "France Boissons",
       "contractType": "Projet client",
       "aboutWork": [
@@ -32,7 +58,7 @@
         }
       ],
       "fromDate": "Septembre 2021 -",
-      "toDate": "Présent",
+      "toDate": "Mai 2021",
       "logoUrl": "https://www.france-boissons.fr/uploads/151006_logo_FB_octobre_3906_001.jpg",
       "siteUrl": "https://www.france-boissons.fr"
     },
@@ -152,7 +178,7 @@
   "education": [
     {
       "university": "IN'TECH groupe ESIEA",
-      "degree": "MASTER d'Expert en Ingenierie Logiciel",
+      "degree": "MASTER d'Expert en Ingenierie Logicielle",
       "gpa": "",
       "fromDate": "2019 -",
       "toDate": "2021",
