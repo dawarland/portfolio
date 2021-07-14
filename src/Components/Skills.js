@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class Skills extends Component {
     constructor(props) {
         super(props);
@@ -17,11 +16,18 @@ class Skills extends Component {
                     <div className="row">
                         {
                             this.skills.hardskill.map((data, index) => (
-                                <div key={index} className="col-6">
+                                <div key={index} className="popover__wrapper col-6">
                                     <p className="list-item">
-                                        <i className="fas fa-check-circle"></i>✅
-                                        <span className="ml-3">{data.name}</span>
+                                        <span className="popover__title ml-3"><p>{data.article ? "👑" : "✅"} {data.name}</p></span>
                                     </p>
+                                    {data.article ? (
+                                        <div className="popover__content">
+                                            <p className="popover__message"><b>{data.name}</b></p>
+                                            <p>{data.article}</p>
+                                        </div>
+                                    ) : (<div/>)
+                                    }
+
                                 </div>
                             ))
                         }
@@ -30,11 +36,18 @@ class Skills extends Component {
                     <div className="row">
                         {
                             this.skills.softskill.map((data, index) => (
-                                <div key={index} className="col-6">
+                                <div key={index} className="popover__wrapper col-6">
                                     <p className="list-item">
-                                        <i className="fas fa-check-circle"></i>✅
-                                        <span className="ml-3">{data.name}</span>
+                                        <span className="popover__title ml-3"><p>{data.article ? "👑" : "✅"} {data.name}</p></span>
                                     </p>
+                                    {data.article ? (
+                                        <div className="popover__content">
+                                            <p className="popover__message"><b>{data.name}</b></p>
+                                            <p>{data.article}</p>
+                                        </div>
+                                    ) : (<div/>)
+                                    }
+
                                 </div>
                             ))
                         }
@@ -43,11 +56,18 @@ class Skills extends Component {
                     <div className="row">
                         {
                             this.skills.language.map((data, index) => (
-                                <div key={index} className="col-6">
+                                <div key={index} className="popover__wrapper col-6">
                                     <p className="list-item">
-                                        <i className="fas fa-check-circle"></i>✅
-                                        <span className="ml-3">{data.name}</span>
+                                        <span className="popover__title ml-3"><p>{data.article ? "👑" : "✅"} {data.name}</p></span>
                                     </p>
+                                    {data.article ? (
+                                        <div className="popover__content">
+                                            <p className="popover__message"><b>{data.name}</b></p>
+                                            <p>{data.article}</p>
+                                        </div>
+                                    ) : (<div/>)
+                                    }
+
                                 </div>
                             ))
                         }

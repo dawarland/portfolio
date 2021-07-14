@@ -33,8 +33,28 @@
       ],
       "fromDate": "Mai 2021 -",
       "toDate": "Présent",
-      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Renault_2009_logo.svg/566px-Renault_2009_logo.svg.png",
+      "logoUrl": "https://logos-marques.com/wp-content/uploads/2021/02/Renault-Logo-2015.png",
       "siteUrl": "https://www.renault.fr/"
+    },
+    {
+      "position": "Mentor",
+      "organization": "Openclassrooms",
+      "contractType": "Intervenant",
+      "aboutWork": [
+        {
+          "aw" : "Accompagnement des personnes dans la réalisation de projets issus du monde professionnel"
+        },
+        {
+          "aw" : "Suivie de la progression des apprenants et signalement d'éventuels retards"
+        },
+        {
+          "aw" : "Partage de connaissances et explication des notions"
+        }
+      ],
+      "fromDate": "Mars 2021 -",
+      "toDate": "Présent",
+      "logoUrl": "https://consent.trustarc.com/get?name=oc_logo.png",
+      "siteUrl": "https://openclassrooms.com/fr/"
     },
     {
       "position": "Consultant Technique Salesforce ☁",
@@ -57,7 +77,7 @@
           "aw" : "Déploiement les différentes realeases en production"
         }
       ],
-      "fromDate": "Septembre 2021 -",
+      "fromDate": "Septembre 2020 -",
       "toDate": "Mai 2021",
       "logoUrl": "https://www.france-boissons.fr/uploads/151006_logo_FB_octobre_3906_001.jpg",
       "siteUrl": "https://www.france-boissons.fr"
@@ -191,7 +211,7 @@
       "gpa": "",
       "fromDate": "",
       "toDate": "2019",
-      "logoUrl": "https://media-exp1.licdn.com/dms/image/C560BAQHTKpkShHTIvw/company-logo_200_200/0?e=2159024400&v=beta&t=g9AanDbxnEL8Eo4xCO6jEJq2esTfxWTn5y4XECOCdG0",
+      "logoUrl": "https://immo2.pro/images/wp-images/2018/09/lecnam-logo-formations-immobilier-diplomes.jpg",
       "siteUrl": "https://cnam.fr"
     },
     {
@@ -210,13 +230,15 @@
         "name": "Agile Scrum"
       },
       {
-        "name": "Angular / React"
+        "name": "Angular / React",
+        "article": "Etant à l'aise avec l'utilisation de javascript, j'ai pris pour habitude de me servir de ses framworks lors de la réalisation d'application Web. J'ai d'ailleurs décidé de réaliser mon portfolio en React car même si ce n'est pas une technologie que j'utilise dans mon entreprise d'accueil, je suis contient qu'elle est extremement demandée sur le marché."
       },
       {
         "name": "Bootstrap"
       },
       {
-        "name": "Git"
+        "name": "Git",
+        "article": "Outil devenu indispensable au bon déroulement d'un projet informatique, GIT fait partie des compétences que j'ai souhaité développer. Je l'utilise d'ailleurs aussi bien dans un cadre profession que lors de projet personnel. Je vous invite à consulter mon github pour apprécier quelques unes de mes réalisations."
       },
       {
         "name": "HTML5/CSS3"
@@ -228,7 +250,8 @@
         "name": "Javascript"
       },
       {
-        "name": "Lightning Component, LWC, APEX"
+        "name": "Lightning Component, LWC, APEX",
+        "article": "Après une periode intense d'autoformation, j'ai intégré ma premiere mission Salesforce pour le Client total. J'ai pu profiter de l'aspet particulierment customiser du projet pour monter en compétence sur la réalisation de composant Lightning et LWC. J'ai pu approfondir mon expertise lors de l'integration d'un système de CTI (Computer Telephony Interface) sur l'environement Salesforce pour le client France Boissons. Je suis aujourd'hui titulaire de 3 certifications Salesforce."
       },
       {
         "name": "Mac, Windows & Linux"
@@ -245,7 +268,8 @@
         "name": "Dynamisme"
       },
       {
-        "name": "Pédagogie"
+        "name": "Pédagogie",
+        "article": "J'ai eu l'occasion d'etre professeur d'informatique pour des enfants de 7 à 14ans chez CodeCodeCodec. J'ai adoré leur transmettre des notions de programmation et d'algorithme via la plateforme Scratch. Actuelemenent, mentor pour chez Openclassrooms, j'accompagne des aprenants lors de leurs formations."
       },
       {
         "name": "Esprit d'analyse"
@@ -257,7 +281,8 @@
         "name": "Perseverance"
       },
       {
-        "name": "Prise de parole"
+        "name": "Prise de parole en public",
+        "article": "J'ai participé à un reportage réalisé par Arte sur \"les Hackeurs Russes\". J'ai également animé le live instagram de présentation de ma filère pour mon école INTECH"
       },
       {
         "name": "Rigueur"
@@ -265,7 +290,9 @@
     ],
     "language": [
       {
-        "name": "Anglais : B1 Intermediaire"
+        "name": "Anglais : B1 Intermediaire",
+        "article": "Score TOIEC : 735. Je suis actuellement sur un projet à ampleur international pour le groupe Renault. De ce fait, tous les echanges se font en anglais. Ca a été un réel chalenge pour moi au départ, mais je me suis senti de plus en plus à l'aise lors des différents meeting."
+
       }
     ]
   },

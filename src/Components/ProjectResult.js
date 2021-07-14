@@ -119,7 +119,7 @@ class ProjectResult extends React.Component {
                                     {this.state.project.Skills.map(
                                         (item) =>
                                             <tr>
-                                                <td>{item.skill}</td>
+                                                <td><a className="nav-link js-scroll-trigger" href="#skills">{item.skill}</a></td>
                                                 {item.url
                                                     ? <td><img height="20px" width="20px" src={item.url} title={"Logo de "+this.skill} alt={"Logo de "+this.skill} /></td>
                                                     : <td></td>
