@@ -13,6 +13,7 @@
     {
       "position": "Consultant Technique Salesforce ☁",
       "organization": "Renault",
+      "city": "Boulogne-Billancourt",
       "contractType": "Projet client",
       "aboutWork": [
         {
@@ -39,6 +40,7 @@
     {
       "position": "Mentor",
       "organization": "Openclassrooms",
+      "city": "Paris",
       "contractType": "Intervenant",
       "aboutWork": [
         {
@@ -59,6 +61,7 @@
     {
       "position": "Consultant Technique Salesforce ☁",
       "organization": "France Boissons",
+      "city": "Rueil Malmaison",
       "contractType": "Projet client",
       "aboutWork": [
         {
@@ -85,6 +88,7 @@
     {
       "position": "Consultant Technique Salesforce ☁",
       "organization": "Total",
+      "city": "La Defense",
       "contractType": "Projet client",
       "aboutWork": [
         {
@@ -111,6 +115,7 @@
     {
       "position": "Consultant Technique Salesforce ☁",
       "organization": "Naturalia",
+      "city": "Issy Les Moulineaux",
       "contractType": "Projet client",
       "aboutWork": [
         {
@@ -131,6 +136,7 @@
     {
       "position": "Ingenieur Logiciel",
       "organization": "Capgemini ♠",
+      "city": "Issy Les Moulineaux",
       "contractType": "Alternance",
       "aboutWork":[
         {
@@ -151,6 +157,7 @@
     {
       "position": "Professeur Associé",
       "organization": "CodeCodeCodec",
+      "city": "Paris",
       "contractType": "CDI",
       "aboutWork": [
         {
@@ -174,6 +181,7 @@
     {
       "position": "Développeur Informatique",
       "organization": "VO DSI",
+      "city": "Paris",
       "contractType": "CDI",
       "aboutWork": [
         {
@@ -269,10 +277,11 @@
       },
       {
         "name": "Pédagogie",
-        "article": "J'ai eu l'occasion d'etre professeur d'informatique pour des enfants de 7 à 14ans chez CodeCodeCodec. J'ai adoré leur transmettre des notions de programmation et d'algorithme via la plateforme Scratch. Actuelemenent, mentor pour chez Openclassrooms, j'accompagne des aprenants lors de leurs formations."
+        "article": "J'ai eu l'occasion d'etre professeur d'informatique pour des enfants de 7 à 14ans chez CodeCodeCodec. J'ai adoré leur transmettre des notions de programmation et d'algorithme via la plateforme Scratch. Actuellemenent, mentor chez Openclassrooms, j'accompagne des aprenants lors de leurs formations."
       },
       {
-        "name": "Esprit d'analyse"
+        "name": "Esprit d'analyse",
+        "article": "J'aime comparer le métier d'ingenieur informatique à celui de détective: Nous sommes des enqueteurs, à la recherche de réponses, de solutions. Et cela demande de savoir analyser les différents éléments en notre possession. Je passe aussi une bonne partie de mon temps libre à faire des clash of code sur le site www.codingame.com. Les petits exercices de programmation proposé me permettent de me challenger, d'élargir ma manière de traiter un probleme et d'apprendre de nouveaux tips."
       },
       {
         "name": "Force de proposition"

@@ -13,7 +13,7 @@ class Experience extends Component {
                 <div className="w-100">
                     <h2 className="mb-5">Expériences 💼</h2>
                     {
-                        this.experience.map( ({position,organization,aboutWork,logoUrl,fromDate,toDate, siteUrl, contractType}, index) => (
+                        this.experience.map( ({position,organization,city,aboutWork,logoUrl,fromDate,toDate, siteUrl, contractType}, index) => (
                             <div key={index} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                                 <div className="resume-content">
                                     <div className="hover-action">
@@ -36,6 +36,7 @@ class Experience extends Component {
                                     </div>
                                     <span className="text-primary">{fromDate} {toDate}</span>
                                     <div className="text-secondary">{contractType}</div>
+                                    <div className="text-secondary font-weight-bold">{city}</div>
                                 </div>
                             </div>
                         ))

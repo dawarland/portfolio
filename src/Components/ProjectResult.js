@@ -21,7 +21,7 @@ class ProjectResult extends React.Component {
             ? (<section className="resume-section p-3 p-lg-5 d-flex" id="project">
                 <div className="mw-100">
                     <h2 className="mb-5">Mes realisations 🔨</h2>
-                    <div className="dropdown">
+                    <div className="dropdown" style={{minWidth: "65vw;"}}>
                         <button className="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             📂 Liste des réalisations
@@ -153,7 +153,7 @@ class ProjectResult extends React.Component {
             : ( <section className="resume-section p-3 p-lg-5 d-flex" id="project">
                     <div className="mw-100">
                         <h2 className="mb-5">Mes realisations 🔨</h2>
-                        <div className="dropdown">
+                        <div className="dropdown" style={{width: "65vw;"}}>
                             <button className="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 📁 Liste des réalisations

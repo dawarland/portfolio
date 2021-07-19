@@ -17,7 +17,7 @@
     position: absolute;
     left: 35%;
     transform: translate(0, 10px);
-    background-color: #007BFF;
+    background-color: rgba(0,123,255,0.9);
     padding: 1.5rem;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     width: auto;
