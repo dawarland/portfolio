@@ -17,13 +17,13 @@ class Skills extends Component {
                         {
                             this.skills.hardskill.map((data, index) => (
                                 <div key={index} className="popover__wrapper col-6">
-                                    <p className="list-item">
+                                    <div className="list-item">
                                         <span className="popover__title ml-3"><p>{data.article ? "👑" : "✅"} {data.name}</p></span>
-                                    </p>
+                                    </div>
                                     {data.article ? (
                                         <div className="popover__content">
-                                            <p className="popover__message"><b>{data.name}</b></p>
-                                            <p>{data.article}</p>
+                                            <div className="popover__message"><b>{data.name}</b></div>
+                                            <div>{data.article}</div>
                                         </div>
                                     ) : (<div/>)
                                     }
@@ -37,13 +37,13 @@ class Skills extends Component {
                         {
                             this.skills.softskill.map((data, index) => (
                                 <div key={index} className="popover__wrapper col-6">
-                                    <p className="list-item">
+                                    <div className="list-item">
                                         <span className="popover__title ml-3"><p>{data.article ? "👑" : "✅"} {data.name}</p></span>
-                                    </p>
+                                    </div>
                                     {data.article ? (
                                         <div className="popover__content">
-                                            <p className="popover__message"><b>{data.name}</b></p>
-                                            <p>{data.article}</p>
+                                            <div className="popover__message"><b>{data.name}</b></div>
+                                            <div>{data.article}</div>
                                         </div>
                                     ) : (<div/>)
                                     }
@@ -57,13 +57,13 @@ class Skills extends Component {
                         {
                             this.skills.language.map((data, index) => (
                                 <div key={index} className="popover__wrapper col-6">
-                                    <p className="list-item">
+                                    <div className="list-item">
                                         <span className="popover__title ml-3"><p>{data.article ? "👑" : "✅"} {data.name}</p></span>
-                                    </p>
+                                    </div>
                                     {data.article ? (
                                         <div className="popover__content">
-                                            <p className="popover__message"><b>{data.name}</b></p>
-                                            <p>{data.article}</p>
+                                            <div className="popover__message"><b>{data.name}</b></div>
+                                            <div>{data.article}</div>
                                         </div>
                                     ) : (<div/>)
                                     }

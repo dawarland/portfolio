@@ -45,8 +45,8 @@ class Salesforce extends Component {
                             <p>Plusieurs heures d'autoformation sur le site <a href="https://trailhead.salesforce.com/fr/">trailhead</a> m'ont été necessaire afin de maîtriser l'aspect administration. J'ai ensuite pu me concentrer sur mon rôle cible.</p>
                             <p>Voici la liste des compétences nécessaires selon Salesforce afin de devenir développeur :</p>
                         <div className="col-8 align-self-center">
-                            { Object.keys(this.salesforceSkills).map((key) =>
-                                <div className="skills-graph__item slds-clearfix">
+                            { Object.keys(this.salesforceSkills).map((key, index) =>
+                                <div className="skills-graph__item slds-clearfix" key={index}>
                                     <div className="skills-graph__item-text">{key}</div>
                                     <div className="progress">
                                         <div className="progress-bar" role="progressbar" style={{width: this.salesforceSkills[key] +'%' }}></div>

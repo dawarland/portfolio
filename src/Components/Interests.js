@@ -16,7 +16,7 @@ class Interests extends Component {
                         <ol className="carousel-indicators">
                             {
                                 this.interests.map( (element, index) => (
-                                    <li data-target="#carouselIndicators" data-slide-to={index} className={ (index === 0 ) ? "active" : ""}></li>
+                                    <li key={index} data-target="#carouselIndicators" data-slide-to={index} className={ (index === 0 ) ? "active" : ""}></li>
                                 ) )
                             }
                         </ol>

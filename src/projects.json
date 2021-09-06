@@ -7,37 +7,19 @@
       "Contexte": "Projet scolaire réalisé lors de ma deuxième année de DUT informatique afin de valider une unité d'enseignement sur le langage de programmation Java.",
       "Role": "Chef de projet / Développeur",
       "Missions": [
-        {
-          "mission": "Présenter des sprints"
-        },
-        {
-          "mission": "Programmer l'affichage du jeu à l'aide des informations données par le contrôleur"
-        },
-        {
-          "mission": "Programmer des algorithmes de parcours en profondeur"
-        }
+        "Présenter des sprints",
+        "Programmer l'affichage du jeu à l'aide des informations données par le contrôleur",
+        "Programmer des algorithmes de parcours en profondeur"
       ],
       "Benefits": [
-        {
-          "benefit": "Montée en compétences sur les technologies utilisées et sur l'encadrement d'un projet"
-        },
-        {
-          "benefit": "Bon retour sur le livrable (agréable à jouer, niveau de difficulté modéré, graphisme cohérent etc...)"
-        },
-        {
-          "benefit": "Bonne collaboration d'équipe"
-        },
-        {
-          "benefit": "Répartition équitable des tâches"
-        }
+        "Montée en compétences sur les technologies utilisées et sur l'encadrement d'un projet",
+        "Bon retour sur le livrable (agréable à jouer, nive… de difficulté modéré, graphisme cohérent etc...)",
+        "Bonne collaboration d'équipe",
+        "Répartition équitable des tâches"
       ],
       "Constraints": [
-        {
-          "constraint": "Certaines fonctionnalités prévues au départ non mises en place faute de temps"
-        },
-        {
-          "constraint": "Le jeu n'a pas été mis en ligne"
-        }
+        "Certaines fonctionnalités prévues au départ non mises en place faute de temps",
+        "Le jeu n'a pas été mis en ligne"
       ],
       "Skills": [
         {
@@ -78,40 +60,20 @@
       "Contexte": "CodeCodeCodec est une école d'informatique pour les enfants âgés de 7 à 14 ans, en manque d'un outil permettant l'optimisaiton de la gestion des planning. ",
       "Role": "Développeur Full Stack",
       "Missions": [
-        {
-          "mission": "Analyser le besoin métier"
-        },
-        {
-          "mission": "Elaborer du MCD"
-        },
-        {
-          "mission": "Développer un site internet"
-        },
-        {
-          "mission": "Mettre en production sur le serveur de l'entreprise"
-        }
+        "Analyser le besoin métier",
+        "Elaborer du MCD",
+        "Développer un site internet",
+        "Mettre en production sur le serveur de l'entreprise"
       ],
       "Benefits": [
-        {
-          "benefit": "Premier projet professionnel ➔ Utilisation concrète du livrable"
-        },
-        {
-          "benefit": "Montée en compétences sur les technologies utilisées et sur l'encadrement d'un projet"
-        },
-        {
-          "benefit": "Autoformation"
-        }
+        "Premier projet professionnel ➔ Utilisation concrète du livrable",
+        "Montée en compétences sur les technologies utilisées et sur l'encadrement d'un projet",
+        "Autoformation"
       ],
       "Constraints": [
-        {
-          "constraint": "Technologies imposées par la matière."
-        },
-        {
-          "constraint": "Legèreté de la documentation rendant la maintenance plus complexe."
-        },
-        {
-          "constraint": "Faute de temps, je n'ai pas pu automatiser l'ajout d'un nouvel élève suite à une commande sur le site marchand."
-        }
+        "Technologies imposées par la matière.",
+        "Legèreté de la documentation rendant la maintenance plus complexe.",
+        "Faute de temps, je n'ai pas pu automatiser l'ajout d'un nouvel élève suite à une commande sur le site marchand."
       ],
       "Skills": [
         {
@@ -152,28 +114,16 @@
       "Contexte": "Désireux de progresser sur le langage JavaScript, je me suis fixer comme objectif de développer un outil à forte utilité sociale.",
       "Role": "Développeur Full Stack",
       "Missions": [
-        {
-          "mission": "Concevoir des fonctions et des classes de test"
-        },
-        {
-          "mission": "Mettre en production le livrable"
-        }
+        "Concevoir des fonctions et des classes de test",
+        "Mettre en production le livrable"
       ],
       "Benefits": [
-        {
-          "benefit": "Capable de travailler de manière autonome sur la technologie"
-        },
-        {
-          "benefit": "Montée en compétences sur les technologies utilisées."
-        },
-        {
-          "benefit": "Autodidactie."
-        }
+        "Capable de travailler de manière autonome sur la technologie",
+        "Montée en compétences sur les technologies utilisées.",
+        "Autodidactie."
       ],
       "Constraints": [
-        {
-          "constraint": "Manque de temps pour faire avancer le projet."
-        }
+        "Manque de temps pour faire avancer le projet."
       ],
       "Skills": [
         {
@@ -195,7 +145,7 @@
         }
       ],
       "img": "aww.png",
-      "url": ""
+      "url": "/projet"
     },
     {
       "Name": "Démineur (20/20)",
@@ -204,25 +154,15 @@
       "Contexte": "Projet scolaire en binôme afin d'expérimenter le langage C",
       "Role": "Chef de projet / Développeur",
       "Missions": [
-        {
-          "mission": "Programmer les algorithmes du jeu"
-        },
-        {
-          "mission": "Rapporter les problèmes de groupe rencontrés"
-        }
+        "Programmer les algorithmes du jeu",
+        "Rapporter les problèmes de groupe rencontrés"
       ],
       "Benefits": [
-        {
-          "benefit": "Montée en compétences sur la technologie utilisée"
-        }
+        "Montée en compétences sur la technologie utilisée"
       ],
       "Constraints": [
-        {
-          "constraint": "Incappable d'etre autonome dans un contexte professionnel"
-        },
-        {
-          "constraint": "Manque de temps (nous n'avons pas pu mettre en place l'IHM)"
-        }
+        "Incappable d'etre autonome dans un contexte professionnel",
+        "Manque de temps (nous n'avons pas pu mettre en place l'IHM)"
       ],
       "Skills": [
         {
@@ -252,31 +192,17 @@
       "Contexte": "Projet personnel de s'inspirer des fonctionnalités du CRM Salesforce afin de les transposer sur mon site internet",
       "Role": "Administrateur / Développeur Salesforce",
       "Missions": [
-        {
-          "mission": "Configurer l'organisation Salesforce"
-        },
-        {
-          "mission": "Créer des Flow Salesforce"
-        },
-        {
-          "mission": "Intégrer des Web-to-case"
-        }
+        "Configurer l'organisation Salesforce",
+        "Créer des Flow Salesforce",
+        "Intégrer des Web-to-case"
       ],
       "Benefits": [
-        {
-          "benefit": "Capable de travailler de manière autonome sur la technologie"
-        },
-        {
-          "benefit": "Montée en compétences sur la technologie utilisée"
-        },
-        {
-          "benefit": "Gain de temps à venir grâce à l'automatisation"
-        }
+        "Capable de travailler de manière autonome sur la technologie",
+        "Montée en compétences sur la technologie utilisée",
+        "Gain de temps à venir grâce à l'automatisation"
       ],
       "Constraints": [
-        {
-          "constraint": "Réalisation des tâches sur une organisation de développement. Fonctionnalités payantes manquantes."
-        }
+        "Réalisation des tâches sur une organisation de développement. Fonctionnalités payantes manquantes."
       ],
       "Skills": [
         {
@@ -300,34 +226,18 @@
       "Contexte": "Projet personnel ayant pour but une montée en compétence sur l'integration de systemes externes",
       "Role": "Développeur Full Stack",
       "Missions": [
-        {
-          "mission": "Planifier les choix d'architecture"
-        },
-        {
-          "mission": "Configurer l'organisation Salesforce"
-        },
-        {
-          "mission": "Créer les classes Apex"
-        },
-        {
-          "mission": "Concevoir le 2eme portfolio"
-        }
+        "Planifier les choix d'architecture",
+        "Configurer l'organisation Salesforce",
+        "Créer les classes Apex",
+        "Concevoir le 2eme portfolio"
       ],
       "Benefits": [
-        {
-          "benefit": "Capable de travailler de manière autonome sur la technologie"
-        },
-        {
-          "benefit": "Montée en compétences sur la technologie utilisée"
-        },
-        {
-          "benefit": "Optimisation de la gestion du portfolio gràce à la puissance du CRM"
-        }
+        "Capable de travailler de manière autonome sur la technologie",
+        "Montée en compétences sur la technologie utilisée",
+        "Optimisation de la gestion du portfolio gràce à la puissance du CRM"
       ],
       "Constraints": [
-        {
-          "constraint": "Réalisation des tâches sur une organisation de développement. Fonctionnalités payantes manquantes."
-        }
+        "Réalisation des tâches sur une organisation de développement. Fonctionnalités payantes manquantes."
       ],
       "Skills": [
         {
@@ -356,28 +266,16 @@
       "Contexte": "Projet personnel ayant pour but d'être utilisé avec mes élèves, et de monter en compétence la réalisation de petit projet web",
       "Role": "Développeur Front End",
       "Missions": [
-        {
-          "mission": "Concevoir les algorithmes du jeu"
-        },
-        {
-          "mission": "Developper les tests unitaire et les tests End-to-End"
-        }
+        "Concevoir les algorithmes du jeu",
+        "Developper les tests unitaire et les tests End-to-End"
       ],
       "Benefits": [
-        {
-          "benefit": "Montée en compétences sur la technologie utilisée"
-        },
-        {
-          "benefit": "Utilisation de nouveau paradigme de programmation web (react hooks)"
-        },
-        {
-          "benefit": "Utilisation de la methode de test TDD"
-        }
+        "Montée en compétences sur la technologie utilisée",
+        "Utilisation de nouveau paradigme de programmation web (react hooks)",
+        "Utilisation de la methode de test TDD"
       ],
       "Constraints": [
-        {
-          "constraint": "Delais réduit. Le challenge était de le faire en 2h."
-        }
+        "Delais réduit. Le challenge était de le faire en 2h."
       ],
       "Skills": [
         {
@@ -398,28 +296,16 @@
       "Contexte": "Projet réaliser pour un tier.",
       "Role": "Chef de projet / Développeur Full-Stack",
       "Missions": [
-        {
-          "mission": "Programmer les interfaces."
-        },
-        {
-          "mission": "Sécuriser la web application (OWASP)."
-        },
-        {
-          "mission": "Créer l'api et lintegrer."
-        }
+        "Programmer les interfaces.",
+        "Sécuriser la web application (OWASP).",
+        "Créer l'api et lintegrer."
       ],
       "Benefits": [
-        {
-          "benefit": "Montée en compétences sur la technologie utilisée"
-        },
-        {
-          "benefit": "Integration et mis en production."
-        }
+        "Montée en compétences sur la technologie utilisée",
+        "Integration et mis en production."
       ],
       "Constraints": [
-        {
-          "constraint": "Pas encore de systeme de monetisation."
-        }
+        "Pas encore de systeme de monetisation."
       ],
       "Skills": [
         {
@@ -454,28 +340,16 @@
       "Contexte": "Projet scolaire en trinôme afin",
       "Role": "Chef de projet / Développeur Full-Stack",
       "Missions": [
-        {
-          "mission": "Programmer les interfaces."
-        },
-        {
-          "mission": "Conception de l'architecture MVC"
-        },
-        {
-          "mission": "Gerer les versionning"
-        }
+        "Programmer les interfaces.",
+        "Conception de l'architecture MVC",
+        "Gerer les versionning"
       ],
       "Benefits": [
-        {
-          "benefit": "Decouverte de la programmation fonctionnelle"
-        },
-        {
-          "benefit": "Montée en compétences sur la technologie utilisée"
-        }
+        "Decouverte de la programmation fonctionnelle",
+        "Montée en compétences sur la technologie utilisée"
       ],
       "Constraints": [
-        {
-          "constraint": "Pas de mode 1 contre l'ordinateur"
-        }
+        "Pas de mode 1 contre l'ordinateur"
       ],
       "Skills": [
         {

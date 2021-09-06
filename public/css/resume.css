@@ -167,3 +167,7 @@ a:active, a:focus, a:hover {
     transition: all .2s ease-in-out;
     transform: scale(1);
 }
+
+.fieldOnError:focus {
+    border: solid red;
+}

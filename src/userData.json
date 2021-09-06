@@ -5,32 +5,41 @@
     "city": "Paris",
     "email": "contact@williamsarland.fr",
     "poste": "Développeur Salesforce",
-    "bio": "Actuellement étudiant en Master Ingénierie du Logiciel, j'ai pu de par mes diverses expériences acquérir de multiples compétences et aptitudes indispensables dans ces métiers. Passionné par le numérique et la logique, faire carrière dans le développement informatique m'a semblé inéluctable.",
+    "bio": "Actuellement diplomé en Ingénierie du Logiciel, j'ai pu de par mes diverses expériences acquérir de multiples compétences et aptitudes indispensables dans ces métiers. Passionné par le numérique et la logique, faire carrière dans le développement informatique m'a semblé inévitable.",
     "linkedin": "https://www.linkedin.com/in/williams-arland-374106118/",
     "github": "https://github.com/dawarland"
   },
   "experience": [
+    {
+      "position": "Ingenieur FullStack",
+      "organization": "VO2 Group",
+      "city": "Montreal",
+      "contractType": "VIE",
+      "aboutWork": [
+        "Analyse des systèmes",
+        "Compréhension des besoins clients",
+        "Conception d'architecture technique",
+        "Développement des solutions",
+        "Maintient en conditions opérationnelles",
+        "Documentation technique",
+        "Développement des tests unitaires"
+      ],
+      "fromDate": "Septembre 2021 -",
+      "toDate": "Présent",
+      "logoUrl": "https://vo2-group.ca/images/logoVo2Black.svg",
+      "siteUrl": "https://vo2-group.ca"
+    },
     {
       "position": "Consultant Technique Salesforce ☁",
       "organization": "Renault",
       "city": "Boulogne-Billancourt",
       "contractType": "Projet client",
       "aboutWork": [
-        {
-          "aw" : "Préparation / Présentation de démo client 🇬🇧"
-        },
-        {
-          "aw" : "Deploiement continue avec Gitlab"
-        },
-        {
-          "aw" : "Développement de classe APEX et de test nécessaire"
-        },
-        {
-          "aw" : "Développement de Lightning Web Component et déploiement"
-        },
-        {
-          "aw" : "Analyse et correction des bugs"
-        }
+        "Préparation / Présentation de démo client 🇬🇧",
+        "Deploiement continue avec Gitlab",
+        "Développement de classe APEX et de test nécessaire",
+        "Développement de Lightning Web Component et déploiement",
+        "Analyse et correction des bugs"
       ],
       "fromDate": "Mai 2021 -",
       "toDate": "Présent",
@@ -43,15 +52,9 @@
       "city": "Paris",
       "contractType": "Intervenant",
       "aboutWork": [
-        {
-          "aw" : "Accompagnement des personnes dans la réalisation de projets issus du monde professionnel"
-        },
-        {
-          "aw" : "Suivie de la progression des apprenants et signalement d'éventuels retards"
-        },
-        {
-          "aw" : "Partage de connaissances et explication des notions"
-        }
+        "Accompagnement des personnes dans la réalisation de projets issus du monde professionnel",
+        "Suivie de la progression des apprenants et signalement d'éventuels retards",
+        "Partage de connaissances et explication des notions"
       ],
       "fromDate": "Mars 2021 -",
       "toDate": "Présent",
@@ -64,21 +67,11 @@
       "city": "Rueil Malmaison",
       "contractType": "Projet client",
       "aboutWork": [
-        {
-          "aw" : "Préparation / Présentation de démo client"
-        },
-        {
-          "aw" : "Mise en place de l’integration sécurisé des systèmes externes (SAP, BDD client, API, Odata avec authentification OAuth)"
-        },
-        {
-          "aw" : "Développement de classe APEX et de test nécessaire"
-        },
-        {
-          "aw" : "Développement de Lightning Web Component et déploiement"
-        },
-        {
-          "aw" : "Déploiement les différentes realeases en production"
-        }
+        "Préparation / Présentation de démo client",
+        "Mise en place de l’integration sécurisé des systèmes externes (SAP, BDD client, API, Odata avec authentification OAuth)",
+        "Développement de classe APEX et de test nécessaire",
+        "Développement de Lightning Web Component et déploiement",
+        "Déploiement les différentes realeases en production"
       ],
       "fromDate": "Septembre 2020 -",
       "toDate": "Mai 2021",
@@ -91,21 +84,11 @@
       "city": "La Defense",
       "contractType": "Projet client",
       "aboutWork": [
-        {
-          "aw" : "Comprendre les enjeux client (métier, culture)"
-        },
-        {
-          "aw" : "Savoir rapporter de manière pertinente les difficultés et/ou les risques sprint/projet"
-        },
-        {
-          "aw" : "Développer les classes APEX et les tests nécessaires"
-        },
-        {
-          "aw" : "Développer les Lightning Component et Ligntning Web Component"
-        },
-        {
-          "aw" : "Mettre en déploiement les différentes realeases"
-        }
+        "Comprendre les enjeux client (métier, culture)",
+        "Savoir rapporter de manière pertinente les difficultés et/ou les risques sprint/projet",
+        "Développer les classes APEX et les tests nécessaires",
+        "Développer les Lightning Component et Ligntning Web Component",
+        "Mettre en déploiement les différentes realeases"
       ],
       "fromDate": "Décembre 2019 -",
       "toDate": "Aout 2020",
@@ -118,15 +101,9 @@
       "city": "Issy Les Moulineaux",
       "contractType": "Projet client",
       "aboutWork": [
-        {
-          "aw" : "Analyser les besoins clients"
-        },
-        {
-          "aw" : "Organiser et traiter des User Stories confiées au sein d'un sprint"
-        },
-        {
-          "aw" : "Transformer un besoin métier simple en solution technique"
-        }
+        "Analyser les besoins clients",
+        "Organiser et traiter des User Stories confiées au sein d'un sprint",
+        "Transformer un besoin métier simple en solution technique"
       ],
       "fromDate": "Septembre 2019 -",
       "toDate": "Décembre 2019",
@@ -139,15 +116,9 @@
       "city": "Issy Les Moulineaux",
       "contractType": "Alternance",
       "aboutWork":[
-        {
-          "aw": "Réaliser des avant-ventes pour des projets CRM"
-        },
-        {
-          "aw": "Intervenir en qualité de consultant technique chez des clients"
-        },
-        {
-          "aw": "Assurer une veille technique pérenne"
-        }
+        "Réaliser des avant-ventes pour des projets CRM",
+        "Intervenir en qualité de consultant technique chez des clients",
+        "Assurer une veille technique pérenne"
       ],
       "fromDate": "Septembre 2019 -",
       "toDate": "Août 2021",
@@ -160,18 +131,10 @@
       "city": "Paris",
       "contractType": "CDI",
       "aboutWork": [
-        {
-          "aw" : "Animer des ateliers de groupe composés de 8 élèves ( âgés de 7 à 14 ans)"
-        },
-        {
-          "aw" : "Elaborer des cours selon la matrice du manuel fourni par l’éducation nationale « 123, Codez ! »"
-        },
-        {
-          "aw" : "S'occuper de la gestion administrative, financière et de recrutement de l’école"
-        },
-        {
-          "aw": "Participer à l’élaboration de la stratégie commerciale"
-        }
+        "Animer des ateliers de groupe composés de 8 élèves ( âgés de 7 à 14 ans)",
+        "Elaborer des cours selon la matrice du manuel fourni par l’éducation nationale « 123, Codez ! »",
+        "S'occuper de la gestion administrative, financière et de recrutement de l’école",
+        "Participer à l’élaboration de la stratégie commerciale"
       ],
       "fromDate": "Avril 2017 -",
       "toDate": "Présent",
@@ -184,18 +147,10 @@
       "city": "Paris",
       "contractType": "CDI",
       "aboutWork": [
-        {
-          "aw": "Préparer et installer le matériel et/ou logiciel des systèmes et réseaux informatiques"
-        },
-        {
-          "aw": "Diagnostiquer et corriger des dysfonctionnements"
-        },
-        {
-          "aw": "Gérer des projets web"
-        },
-        {
-          "aw": "Assurer le développement et la maintenance de sites web"
-        }
+        "Préparer et installer le matériel et/ou logiciel des systèmes et réseaux informatiques",
+        "Diagnostiquer et corriger des dysfonctionnements",
+        "Gérer des projets web",
+        "Assurer le développement et la maintenance de sites web"
       ],
       "fromDate": "Octobre 2017 -",
       "toDate": "Août 2019",

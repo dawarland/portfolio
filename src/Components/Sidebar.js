@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom'
 import profilImg from '../Assets/profile.png';
 import devImg from "../Assets/projet.gif";
-import { Link } from 'react-router-dom'
 
 class Sidebar extends Component {
     constructor(props) {
@@ -13,11 +11,11 @@ class Sidebar extends Component {
 
     render() {
         return (
-            <nav className={"navbar navbar-expand-lg navbar-dark "+ (window.location.hash == '#projects' ? 'bg-dark' : 'bg-primary') +" fixed-top"} id="sideNav">
+            <nav className={"navbar navbar-expand-lg navbar-dark "+ (window.location.hash === '#projects' ? 'bg-dark' : 'bg-primary') +" fixed-top"} id="sideNav">
                 <a className="navbar-brand js-scroll-trigger" href="#about">
                     <span className="d-block d-lg-none">{this.sidebarData.firstName} {this.sidebarData.lastName}</span>
                     <span className="d-none d-lg-block">
-                        <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={(window.location.hash == '#project' ? devImg :profilImg )} title={(window.location.hash == '#project' ? "Image Développeur" :"Photo de Williams ARLAND ANYOU" )} alt={(window.location.hash == '#project' ? "Image Développeur" :"Photo de Williams ARLAND ANYOU" )}></img>
+                        <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={(window.location.hash === '#project' ? devImg :profilImg )} title={(window.location.hash === '#project' ? "Image Développeur" :"Photo de Williams ARLAND ANYOU" )} alt={(window.location.hash === '#project' ? "Image Développeur" :"Photo de Williams ARLAND ANYOU" )}></img>
                     </span>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -24,7 +24,7 @@ class Experience extends Component {
                                         <ul>
                                         {
                                             [...aboutWork].map((item, idx) => (
-                                                <li key={idx}>{item.aw}</li>
+                                                <li key={idx}>{item}</li>
                                             ))
                                         }
                                         </ul>

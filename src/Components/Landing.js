@@ -12,7 +12,7 @@ class Landing extends Component {
             <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
                 <div className="mw-100">
                     <div className="text-center">
-                    <img className="img d-block d-sm-none" src={aww} title="Photo de Williams ARLAND ANYOU" alt="Photo de Williams ARLAND ANYOU"></img>
+                    <img className="img d-block d-sm-none" src={aww} title="Photo de Williams ARLAND ANYOU" alt="Williams ARLAND ANYOU"></img>
 
                         <h1 className="mb-0 d-none d-sm-block mb-4">{this.landingData.firstName}
                         <div className="text-primary"> {this.landingData.lastName}</div>
