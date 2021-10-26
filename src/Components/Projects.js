@@ -396,7 +396,6 @@ class Projects extends Component {
     }
 
     addElement(event, type){
-        console.log(type);
         let elem = event.target;
         let children = elem.parentNode.children;
         let inputs = [...children].filter(x => x.type !== "submit")
@@ -404,11 +403,11 @@ class Projects extends Component {
         let newElem = {};
         let newArray = undefined;
 
-        if(type===TYPE_SKI){
+        /*if(type===TYPE_SKI){
             newElem[inputs[0].value] = {}
             newElem[inputs[0].value][inputs[1].id] = inputs[1].value
             newElem[inputs[0].value][inputs[2].id] = inputs[2].value
-        }else {
+        }else {*/
             for (let i = 0; i < inputs.length; i++) {
                 if(inputs[i].value.match(/\n/g)){
                     newElem[inputs[i].id] = inputs[i].value.split('\n').map(x=> x);
@@ -418,7 +417,7 @@ class Projects extends Component {
                 //clean field
                 inputs[i].value = "";
             }
-        }
+        //}
 
         switch (type) {
             case TYPE_EXP : newArray = [...this.state.experienceArray, newElem]
@@ -481,7 +480,13 @@ class Projects extends Component {
 
         newForm.awards = this.state.awardArray;
 
-        fetch("http://localhost:3000/generate-zip", {body: newForm, method: "post"} )
+        fetch("http://localhost:3000/generate-zip", {
+            method: "POST",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(newForm)} )
             .then((res)=>res.json())
             .then((res)=>{
                 console.log({res})
@@ -566,7 +571,9 @@ class Projects extends Component {
                                     <div className="form-group">
                                         <h3 className="mb-5">Certifications</h3>
                                         <div className="form-group">
-                                            <input id="linkedin" placeholder="Url linkedin" className="form-control" name="linkedin" size="20" type="text"/>
+                                            <input id="awardDetail" placeholder="Date d'obtention" className="form-control" name="awardDetail" type="text"/>
+                                            <input id="awardTitle" placeholder="Nom" className="form-control" name="linkedin" type="awardTitle"/>
+                                            <input id="awardOrg" placeholder="Organisme de délivrance" className="form-control" name="awardOrg" size="20" type="text"/>
                                             <button onClick={(e)=>this.addElement(e,TYPE_AWA)}>+</button>
                                         </div>
                                         <ul className="border">

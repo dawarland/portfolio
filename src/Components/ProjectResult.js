@@ -21,7 +21,7 @@ class ProjectResult extends React.Component {
             ? (<section className="resume-section p-3 p-lg-5 d-flex" id="project">
                 <div className="mw-100">
                     <h2 className="mb-5">Mes realisations 🔨</h2>
-                    <div className="dropdown" style={{minWidth: "65vw"}}>
+                    <div className="dropdown" style={{width: "65vw"}}>
                         <button className="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             📂 Liste des réalisations
@@ -34,10 +34,11 @@ class ProjectResult extends React.Component {
                             )}
                         </div>
                     </div>
-                    <div style={{width: '100%',
+                    <div style={{
                         margin : '0',
                         padding : '2%',
-                        border : 'solid'}}>
+                        border : 'solid',
+                        width: "65vw"}}>
                         {this.state.project.img && <img className="rounded float-right img-fluid"
                                                         src={this.state.project.img}
                                                         title={this.state.project.Name}
@@ -134,7 +135,7 @@ class ProjectResult extends React.Component {
 
                         </div>
                 </div>
-                    <div className="dropup">
+                    <div className="dropup" style={{width: "65vw"}}>
                         <button className="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             📂 Liste des réalisations
@@ -166,7 +167,7 @@ class ProjectResult extends React.Component {
                                 )}
                             </div>
                         </div>
-                        <div style={{width: '100%',
+                        <div style={{width: '65vw',
                         margin : '0',
                         padding : '2%',
                         border : 'solid',
@@ -175,7 +176,7 @@ class ProjectResult extends React.Component {
 
 
                         </div>
-                        <div className="dropup">
+                        <div className="dropup" style={{width: "65vw"}}>
                             <button type="button" className="btn btn-secondary btn-block">
                                 &nbsp;
                             </button>

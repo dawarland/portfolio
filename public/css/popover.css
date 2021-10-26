@@ -1,10 +1,11 @@
+@import "./root.css";
 /* Popover styling */
 .popover__title {
     text-decoration: none;
     text-align: center;
     padding: 15px 0;
     cursor: pointer;
-    color : #343A40;
+    color : var(--secondary);
 }
 
 .popover__wrapper {
@@ -17,7 +18,7 @@
     position: absolute;
     left: 35%;
     transform: translate(0, 10px);
-    background-color: rgba(0,123,255,0.9);
+    background-color: rgba( var(--primary_RGB), 0.9) ;/*rgba(0,123,255,0.9);*/
     padding: 1.5rem;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     width: auto;
@@ -31,7 +32,7 @@
     top: -8px;
     border-style: solid;
     border-width: 0 10px 10px 10px;
-    border-color: transparent transparent #007BFF transparent;
+    border-color: transparent transparent var(--primary) transparent;
     transition-duration: 0.3s;
     transition-property: transform;
 }
@@ -44,5 +45,5 @@
 }
 .popover__message {
     text-align: center;
-    color:#343A40;
+    color: var(--secondary);
 }

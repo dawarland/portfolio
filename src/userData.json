@@ -13,7 +13,7 @@
     {
       "position": "Ingenieur FullStack",
       "organization": "VO2 Group",
-      "city": "Montreal",
+      "city": "Montreal \uD83C\uDDE8\uD83C\uDDE6",
       "contractType": "VIE",
       "aboutWork": [
         "Analyse des systèmes",
@@ -32,7 +32,7 @@
     {
       "position": "Consultant Technique Salesforce ☁",
       "organization": "Renault",
-      "city": "Boulogne-Billancourt",
+      "city": "Boulogne-Billancourt \uD83C\uDDEB\uD83C\uDDF7",
       "contractType": "Projet client",
       "aboutWork": [
         "Préparation / Présentation de démo client 🇬🇧",
@@ -49,7 +49,7 @@
     {
       "position": "Mentor",
       "organization": "Openclassrooms",
-      "city": "Paris",
+      "city": "Paris \uD83C\uDDEB\uD83C\uDDF7",
       "contractType": "Intervenant",
       "aboutWork": [
         "Accompagnement des personnes dans la réalisation de projets issus du monde professionnel",
@@ -81,7 +81,7 @@
     {
       "position": "Consultant Technique Salesforce ☁",
       "organization": "Total",
-      "city": "La Defense",
+      "city": "La Defense \uD83C\uDDEB\uD83C\uDDF7",
       "contractType": "Projet client",
       "aboutWork": [
         "Comprendre les enjeux client (métier, culture)",
@@ -98,7 +98,7 @@
     {
       "position": "Consultant Technique Salesforce ☁",
       "organization": "Naturalia",
-      "city": "Issy Les Moulineaux",
+      "city": "Issy Les Moulineaux \uD83C\uDDEB\uD83C\uDDF7",
       "contractType": "Projet client",
       "aboutWork": [
         "Analyser les besoins clients",
@@ -113,7 +113,7 @@
     {
       "position": "Ingenieur Logiciel",
       "organization": "Capgemini ♠",
-      "city": "Issy Les Moulineaux",
+      "city": "Issy Les Moulineaux \uD83C\uDDEB\uD83C\uDDF7",
       "contractType": "Alternance",
       "aboutWork":[
         "Réaliser des avant-ventes pour des projets CRM",
@@ -128,7 +128,7 @@
     {
       "position": "Professeur Associé",
       "organization": "CodeCodeCodec",
-      "city": "Paris",
+      "city": "Paris \uD83C\uDDEB\uD83C\uDDF7",
       "contractType": "CDI",
       "aboutWork": [
         "Animer des ateliers de groupe composés de 8 élèves ( âgés de 7 à 14 ans)",
@@ -144,7 +144,7 @@
     {
       "position": "Développeur Informatique",
       "organization": "VO DSI",
-      "city": "Paris",
+      "city": "Paris \uD83C\uDDEB\uD83C\uDDF7",
       "contractType": "CDI",
       "aboutWork": [
         "Préparer et installer le matériel et/ou logiciel des systèmes et réseaux informatiques",
@@ -193,8 +193,8 @@
         "name": "Agile Scrum"
       },
       {
-        "name": "Angular / React",
-        "article": "Etant à l'aise avec l'utilisation de javascript, j'ai pris pour habitude de me servir de ses framworks lors de la réalisation d'application Web. J'ai d'ailleurs décidé de réaliser mon portfolio en React car même si ce n'est pas une technologie que j'utilise dans mon entreprise d'accueil, je suis contient qu'elle est extremement demandée sur le marché."
+        "name": "React",
+        "article": "Etant à l'aise avec l'utilisation de javascript, j'ai pris pour habitude de me servir de ses framworks lors de la réalisation d'application Web. J'ai d'ailleurs décidé de réaliser mon portfolio en React car c'est une technologie que j'utilise en entreprise."
       },
       {
         "name": "Bootstrap"
