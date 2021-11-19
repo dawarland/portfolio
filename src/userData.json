@@ -2,9 +2,9 @@
   "landing": {
     "firstName": "Williams",
     "lastName": "Arland Anyou",
-    "city": "Paris",
+    "city": "Paris 🇫🇷 - Montréal 🇨🇦",
     "email": "contact@williamsarland.fr",
-    "poste": "Développeur Salesforce",
+    "poste": "Développeur Javascript / Salesforce",
     "bio": "Actuellement diplomé en Ingénierie du Logiciel, j'ai pu de par mes diverses expériences acquérir de multiples compétences et aptitudes indispensables dans ces métiers. Passionné par le numérique et la logique, faire carrière dans le développement informatique m'a semblé inévitable.",
     "linkedin": "https://www.linkedin.com/in/williams-arland-374106118/",
     "github": "https://github.com/dawarland"
@@ -265,12 +265,6 @@
       "title": "Partage de connaissance",
       "paragraphe" : "J'adore apprendre et transmettre mes connaissances. J'ai eu la chance d'être professeur d'informatique chez CodeCodeCodec. Le but était de sensibiliser la nouvelle génération au numérique et aux algorithmes de programmation. En outre, j'interviens aussi en tant que mentor et professeur particulier",
       "url": "https://images.bfmtv.com/wIjK7iXAf5ldCGSfRpFKsr40Rx0=/2x1:610x343/375x0/images/-158246.jpg"
-    },
-    {
-      "title": "Boxe",
-      "paragraphe" : "Je pratique la boxe chinoise (aussi appelé Sanda). Une pratique à la fois mentale et physique.",
-      "url": "https://ffwu.be/wp-content/uploads/2019/10/sanda2.jpg"
-
     },
     {
       "title": "Capoeira",
